@@ -1,0 +1,6 @@
+Focus objek - 
+Icon arrow -
+Pembesaran objek
+Add object
+Make object scale 
+Place Text
