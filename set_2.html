@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembuat UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .toolbar {
+            width: 20%;
+            padding: 10px;
+            background: rgb(3, 8, 38);
+            border-right: 1px solid #1803d3;
+        }
+
+        .canvas {
+            flex-grow: 1;
+            position: relative;
+            border: 1px solid #0404af;
+            background: #ffffff;
+            height: 100vh;
+        }
+
+        .properties-panel {
+            color: aliceblue;
+            width: 20%;
+            padding: 10px;
+            background: rgb(3, 8, 38);
+            border-left: 1px solid #1803d3;
+        }
+
+        .editable {
+            position: absolute;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toolbar">
+        <button data-element="button">Button</button>
+        <button data-element="input">Input Field</button>
+        <button data-element="div">Container</button>
+    </div>
+
+    <div class="canvas" id="canvas">
+        <!-- Area untuk membuat UI -->
+    </div>
+
+    <div class="properties-panel">
+        <h3>Properties</h3>
+        <label for="top">Top:</label>
+        <input type="number" id="top">
+        <br>
+        <label for="bottom">Buttom:</label>
+        <input type="number" id="bottom">
+        <br>
+        <label for="right">Right:</label>
+        <input type="number" id="right">
+        <br>
+        <label for="left">Left:</label>
+        <input type="number" id="left">
+        <br>
+        <label for="width">Width:</label>
+        <input type="number" id="width">
+        <br>
+        <label for="height">Height:</label>
+        <input type="number" id="height">
+        <br>
+        <label for="background">Background Color:</label>
+        <input type="color" id="background">
+        <br>
+        <label for="border-radius">Border radius:</label>
+        <input type="number" id="border-radius">
+        <br>
+        <label for="border-width">Border Width:</label>
+        <input type="number" id="border-width">
+        <br>
+        <label for="border-style">Border Style:</label>
+        <input type="text" id="border-style">
+        <br>
+        <label for="border-color">Border Color:</label>
+        <input type="color" id="border-color">
+        <br>
+        <label for="font-size">Font Size:</label>
+        <input type="number" id="font-size">
+        <br>
+        <label for="font-color">Font Color:</label>
+        <input type="color" id="font-color">
+        <br>
+        <label for="margin-top">Margin top:</label>
+        <input type="number" id="margin-top">
+        <br>
+        <label for="margin-bottom">Margin bottom:</label>
+        <input type="number" id="margin-bottom">
+        <br>
+        <label for="margin-right">Margin right:</label>
+        <input type="number" id="margin-right">
+        <br>
+        <label for="margin-left">Margin left:</label>
+        <input type="number" id="margin-left">
+        <br>
+        <label for="padding-top">Padding top:</label>
+        <input type="number" id="padding-top">
+        <br>
+        <label for="padding-bottom">Padding-bottom:</label>
+        <input type="number" id="padding-bottom">
+        <br>
+        <label for="padding-right">Padding right:</label>
+        <input type="number" id="padding-right">
+        <br>
+        <label for="padding-left">Padding left:</label>
+        <input type="number" id="padding-left">
+        <br>
+        <label for="display">Display:</label>
+        <input type="text" id="display">
+        <br>
+        <label for="z-index">z-index:</label>
+        <input type="text" id="z-index">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

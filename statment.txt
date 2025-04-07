@@ -1,6 +1,6 @@
 Focus objek - 
 Icon arrow -
-Pembesaran objek
+Pembesaran objek -
 Add object
 Make object scale 
 Place Text

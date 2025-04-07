@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Box</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(3, 8, 38);
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            outline-offset: 2px;
+        }
+
+        .dropbtn {
+            background-color: #3498DB;
+            color: white;
+            padding: 7px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #2980B9;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown a:hover {
+            background-color: #ddd;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="box"></div>
+    </div>
+
+    <label for="widthInput">Width:</label>
+    <input type="number" id="scaleXInput">
+    <br>
+    <br>
+    <label for="heightInput">Height:</label>
+    <input type="number" id="scaleYInput">
+    <br>
+    <label for="red">Red:</label>
+    <input type="number" id="red" min="0" max="255">
+    <label for="green">Green:</label>
+    <input type="number" id="green" min="0" max="255">
+    <label for="blue">Blue:</label>
+    <input type="number" id="blue" min="0" max="255">
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <button id="addBox">Box</button>
+            <button onclick="">Triangel</button>
+            <button onclick="">Circle</button>
+        </div>
+    </div>
+
+    <script src="Drag_scale.js"></script>
+    <script src="Move_object.js"></script>
+    <script src="Add_object.js"></script>
+
+    <script src=""></script>
+</body>
+
+</html>
