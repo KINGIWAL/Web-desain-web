@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pembuat UI</title>
-    <link rel="stylesheet" href="styles.css">
+
     <style>
         body {
             display: flex;
@@ -44,13 +44,23 @@
 </head>
 
 <body>
+
     <div class="toolbar">
-        <button data-element="button">Button</button>
-        <button data-element="input">Input Field</button>
-        <button data-element="div">Container</button>
+        <button id="undoButton">Undo</button>
+        <button id="redoButton">Redo</button>
+        <button id="exportButton">Export Project</button>
+        <button id="button" data-element="button">Button</button>
+        <br>
+        <button id="button" data-element="input">Input Field</button>
+        <br>
+        <button id="button" data-element="div">Container</button>
+        <br>
+        <button id="button" data-element="h1">h1</button>
+
     </div>
 
     <div class="canvas" id="canvas">
+
         <!-- Area untuk membuat UI -->
     </div>
 

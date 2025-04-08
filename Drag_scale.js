@@ -405,7 +405,6 @@ function arrow(object) {
         }
         console.log(activeObject);
     });
-
 }
 //BAGIAN HOVER ARROW
 function hoverImg(x) {

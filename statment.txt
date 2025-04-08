@@ -1,6 +1,7 @@
 Focus objek - 
 Icon arrow -
 Pembesaran objek -
-Add object
-Make object scale 
+Add object -
+Make object scale -
 Place Text
+Menambah tag dengan masing masing fungsinya
