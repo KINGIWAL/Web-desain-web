@@ -1,7 +1,8 @@
-//Tempat semua yang akan dibuat
 const canvas = document.getElementById("canvas");
-//Seluruh button yang berfungsi untuk melakukan tindakan
-const toolbarButtons = document.querySelectorAll(".toolbar #button");
+const button = document.getElementById("button");
+const input = document.getElementById("input");
+const div = document.getElementById("div");
+const h = document.querySelectorAll(".h");
 //Untuk melakukan perubahan bagi elemen yang dipilih secara real time
 const topInput = document.getElementById("top");
 const bottomInput = document.getElementById("bottom");
@@ -26,17 +27,22 @@ const paddingRightInput = document.getElementById("padding-right");
 const paddingLeftInput = document.getElementById("padding-left");
 const displayInput = document.getElementById("display");
 const zIndexInput = document.getElementById("z-index");
+const text = document.getElementById("text");
+//navigation
+const nav = document.getElementById("nav");
+const nav2 = document.getElementById("nav2");
+
 // Dragging functionality
 let selectedElement = null;
 let activeObject = null;
 
 //yang bagian ini digunakan untuk melakukan perubahan pada properti objek yang sesuai id ketika dilakukan suatu input 
-[widthInput, heightInput, backgroundInput, borderRadiusInput, borderWidthInput, borderStyleInput, borderColorInput, fontColorInput, fontSizeInput, marginTopInput, marginBottomInput, marginRightInput, marginLeftInput, paddingTopInput, paddingBottomInput, paddingRightInput, paddingLeftInput, displayInput, zIndexInput, top, bottom, right, left].forEach(input => {
+[widthInput, heightInput, backgroundInput, borderRadiusInput, borderWidthInput, borderStyleInput, borderColorInput, fontColorInput, fontSizeInput, marginTopInput, marginBottomInput, marginRightInput, marginLeftInput, paddingTopInput, paddingBottomInput, paddingRightInput, paddingLeftInput, displayInput, zIndexInput, top, bottom, right, left, text].forEach(input => {
     input.addEventListener("input", () => {
         if (selectedElement) {
             if (input.id === "background") selectedElement.style.backgroundColor = input.value;
             if (input.id === "border-color") selectedElement.style.borderColor = input.value;
-            if (input.id === "font-color") selectedElement.style.fontColor = input.value;
+            if (input.id === "font-color") selectedElement.style.color = input.value;
             if (input.id === "width") selectedElement.style.width = `${input.value}px`;
             if (input.id === "height") selectedElement.style.height = `${input.value}px`;
             if (input.id === "border-radius") selectedElement.style.borderRadius = `${input.value}px`;
@@ -57,6 +63,7 @@ let activeObject = null;
             if (input.id === "right") selectedElement.style.right = `${input.value}px`;
             if (input.id === "left") selectedElement.style.left = `${input.value}px`;
             if (input.id === "z-index") selectedElement.style.zIndex = input.value;
+            if (input.id === "text") selectedElement.textContent = input.value;
 
         }
     });
@@ -99,6 +106,7 @@ canvas.addEventListener("click", (event) => {
         paddingRightInput.value = parseInt(computedStyle.paddingRight) || 0;
         paddingLeftInput.value = parseInt(computedStyle.paddingLeft) || 0;
         zIndexInput.value = parseInt(computedStyle.zIndex) || 0;
+        text.value = selectedElement.textContent;
     }
 });
 //function untuk perubahan rgb ke hexa
@@ -109,25 +117,43 @@ function rgbToHex(r, g, b) {
     }).join("");
 }
 
-//klo yang dibagian ini digunakan untuk pemberian fungsi keseluruh button
-toolbarButtons.forEach(button => {
-    //klo ini digunakan untuk penambahan element baru 
-    button.addEventListener("click", () => {
-        //bagian ini digunakna untuk mengambil data-element yang akan menjadi status tag HTML-nya
-        const elementType = button.getAttribute("data-element");
-        const newElement = document.createElement(elementType);
-        newElement.classList.add("editable");
-        newElement.style.width = "100px";
-        newElement.style.height = "50px";
-        newElement.style.backgroundColor = "#ddd";
-        newElement.style.left = "50px";
-        newElement.style.top = "50px";
+
+
+//klo ini digunakan untuk penambahan element baru 
+div.addEventListener("click", () => {
+    //bagian ini digunakna untuk mengambil data-element yang akan menjadi status tag HTML-nya
+    const elementType = div.getAttribute("data-element");
+    const newdiv = document.createElement(elementType);
+    newdiv.classList.add("editable");
+    newdiv.style.width = "100px";
+    newdiv.style.height = "50px";
+    newdiv.style.backgroundColor = "#ddd";
+    newdiv.style.left = "682px";
+    newdiv.style.top = "326px";
+
+    // Tambahkan drag interactivity
+    newdiv.addEventListener("mousedown", startDrag);
+    canvas.appendChild(newdiv);
+});
+
+h.forEach(allh => {
+    allh.addEventListener("click", () => {
+        const elementType = allh.getAttribute("data-element");
+        const newh1 = document.createElement(elementType);
+        newh1.classList.add("editable");
+        newh1.style.width = "100px";
+        newh1.style.height = "50px";
+        newh1.style.backgroundColor = "white";
+        newh1.style.left = "682px";
+        newh1.style.top = "326px";
+        newh1.textContent = "Isi kata kata ...";
 
         // Tambahkan drag interactivity
-        newElement.addEventListener("mousedown", startDrag);
-        canvas.appendChild(newElement);
-    });
-});
+        newh1.addEventListener("mousedown", startDrag);
+        canvas.appendChild(newh1);
+    })
+}
+);
 
 function startDrag(event) {
     selectedElement = event.target;
@@ -446,6 +472,9 @@ function arrow(object) {
             activeObject.style.outline = "2px solid blue"; // Tambahkan outline sebagai indikator
         }
     });
+    if (activeObject && activeObject !== object) {
+        allimg.remove()
+    }
 }
 //BAGIAN HOVER ARROW
 function hoverImg(x) {
@@ -548,5 +577,22 @@ document.getElementById("redoButton").addEventListener("click", redo);
 canvas.addEventListener("click", saveState);
 canvas.addEventListener("input", saveState); // Simpan saat ada perubahan input
 
-console.log("Undo Stack:", undoStack);
-console.log("Redo Stack:", redoStack);
+nav.addEventListener("click", openNav)
+nav2.addEventListener("click", openNav2)
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+function openNav2() {
+    document.getElementById("mySidenav2").style.width = "300px";
+    document.getElementById("mySidenav2").style.left = "1236px";
+
+}
+function closeNav2() {
+    document.getElementById("mySidenav2").style.width = "0";
+    document.getElementById("mySidenav2").style.left = "1535px";
+}

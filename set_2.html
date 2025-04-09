@@ -13,59 +13,197 @@
             margin: 0;
         }
 
-        .toolbar {
-            width: 20%;
-            padding: 10px;
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
             background: rgb(3, 8, 38);
             border-right: 1px solid #1803d3;
         }
 
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        .sidenav button {
+            background-color: #09033c;
+            color: #ffffff;
+            margin: 3px;
+            border-radius: 5px;
+            display: inline-block;
+            width: 95%;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            border-color: #252bdc;
+            transition: background-color 0.3s;
+        }
+
+        .sidenav button:hover {
+
+            background-color: rgb(17, 29, 74);
+        }
+
+
         .canvas {
             flex-grow: 1;
-            position: relative;
+            position: fixed;
             border: 1px solid #0404af;
             background: #ffffff;
             height: 100vh;
         }
 
         .properties-panel {
-            color: aliceblue;
-            width: 20%;
-            padding: 10px;
+            color: #ffffff;
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 1535px;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
             background: rgb(3, 8, 38);
-            border-left: 1px solid #1803d3;
+            border-right: 1px solid #1803d3;
+        }
+
+        .properties-panel a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .properties-panel a:hover {
+            color: #f1f1f1;
+        }
+
+        .properties-panel .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
         }
 
         .editable {
             position: absolute;
             border: 1px solid #000;
         }
+
+        .properties-panel label {
+            margin-left: 18px;
+        }
+
+        .properties-panel h2 {
+            margin-left: 18px;
+        }
+
+        .properties-panel input {
+            border: 1px solid #260c8d;
+            border-radius: 5px;
+            padding: 10px;
+            color: #04fd00;
+            width: 80%;
+            background-color: #09033c;
+            margin-left: 18px;
+            margin-top: 9px;
+            margin-bottom: 9px;
+        }
+
+        #nav1 {
+            position: fixed;
+            width: 100px;
+            height: 50px;
+            top: 0;
+            left: 0;
+            margin-top: 4px;
+            margin-left: 4px;
+        }
+
+        #nav2 {
+            position: fixed;
+            width: 100px;
+            height: 50px;
+            top: 0;
+            left: 0;
+            margin-top: 4px;
+            margin-left: 1450px;
+        }
     </style>
 </head>
 
 <body>
-
-    <div class="toolbar">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <button id="undoButton">Undo</button>
+        <br>
         <button id="redoButton">Redo</button>
+        <br>
         <button id="exportButton">Export Project</button>
+        <br>
         <button id="button" data-element="button">Button</button>
         <br>
-        <button id="button" data-element="input">Input Field</button>
+        <button id="input" data-element="input">Input Field</button>
         <br>
-        <button id="button" data-element="div">Container</button>
+        <button id="div" data-element="div">&lt;div&gt;</button>
         <br>
-        <button id="button" data-element="h1">h1</button>
-
+        <button class="h" data-element="h1">&lt;h1&gt;</button>
+        <br>
+        <button class="h" data-element="h2">&lt;h2&gt;</button>
+        <br>
+        <button class="h" data-element="h3">&lt;h3&gt;</button>
+        <br>
+        <button class="h" data-element="h4">&lt;h4&gt;</button>
+        <br>
+        <button class="h" data-element="h5">&lt;h5&gt;</button>
+        <br>
+        <button class="h" data-element="h6">&lt;h6&gt;</button>
     </div>
-
+    <span id="nav1" onclick="openNav()">&#9776; Menu</span>
+    <span id="nav2" onclick="openNav2()">&#9776; Properti</span>
     <div class="canvas" id="canvas">
-
         <!-- Area untuk membuat UI -->
     </div>
 
-    <div class="properties-panel">
-        <h3>Properties</h3>
+    <div id="mySidenav2" class="properties-panel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+        <h2>Properties</h2>
         <label for="top">Top:</label>
         <input type="number" id="top">
         <br>
@@ -85,7 +223,7 @@
         <input type="number" id="height">
         <br>
         <label for="background">Background Color:</label>
-        <input type="color" id="background">
+        <input type="color" style="height: 50px; border-radius:20px; width:50px " id="background">
         <br>
         <label for="border-radius">Border radius:</label>
         <input type="number" id="border-radius">
@@ -97,13 +235,16 @@
         <input type="text" id="border-style">
         <br>
         <label for="border-color">Border Color:</label>
-        <input type="color" id="border-color">
+        <input type="color" style="height: 50px; border-radius:20px; width:50px " id="border-color">
+        <br>
+        <label for="text">Text:</label>
+        <input type="text" id="text">
         <br>
         <label for="font-size">Font Size:</label>
         <input type="number" id="font-size">
         <br>
         <label for="font-color">Font Color:</label>
-        <input type="color" id="font-color">
+        <input type="color" style="height: 50px; border-radius:20px; width:50px " id="font-color">
         <br>
         <label for="margin-top">Margin top:</label>
         <input type="number" id="margin-top">

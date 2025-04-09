@@ -3,5 +3,6 @@ Icon arrow -
 Pembesaran objek -
 Add object -
 Make object scale -
-Place Text
+Place Text-
 Menambah tag dengan masing masing fungsinya
+tambah style cssnya -
