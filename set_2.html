@@ -195,8 +195,8 @@
         <br>
         <button class="h" data-element="h6">&lt;h6&gt;</button>
     </div>
-    <span id="nav1" onclick="openNav()">&#9776; Menu</span>
-    <span id="nav2" onclick="openNav2()">&#9776; Properti</span>
+    <span id="nav1">&#9776; Menu</span>
+    <span id="nav2">Properti &#9776;</span>
     <div class="canvas" id="canvas">
         <!-- Area untuk membuat UI -->
     </div>
@@ -204,77 +204,1094 @@
     <div id="mySidenav2" class="properties-panel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
         <h2>Properties</h2>
-        <label for="top">Top:</label>
-        <input type="number" id="top">
         <br>
-        <label for="bottom">Buttom:</label>
-        <input type="number" id="bottom">
+        <label for="top">top:</label>
+        <input type="text" id="top">
         <br>
-        <label for="right">Right:</label>
-        <input type="number" id="right">
+        <label for="bottom">bottom:</label>
+        <input type="text" id="bottom">
         <br>
-        <label for="left">Left:</label>
-        <input type="number" id="left">
+        <label for="right">right:</label>
+        <input type="text" id="right">
         <br>
-        <label for="width">Width:</label>
-        <input type="number" id="width">
+        <label for="left">left:</label>
+        <input type="text" id="left">
         <br>
-        <label for="height">Height:</label>
-        <input type="number" id="height">
+        <label for="width">width:</label>
+        <input type="text" id="width">
         <br>
-        <label for="background">Background Color:</label>
-        <input type="color" style="height: 50px; border-radius:20px; width:50px " id="background">
+        <label for="height">height:</label>
+        <input type="text" id="height">
         <br>
-        <label for="border-radius">Border radius:</label>
-        <input type="number" id="border-radius">
+        <label for="accent-color">accent-color:</label>
+        <input type="text" id="accent-color">
         <br>
-        <label for="border-width">Border Width:</label>
-        <input type="number" id="border-width">
+        <label for="align-content">align-content:</label>
+        <input type="text" id="align-content">
         <br>
-        <label for="border-style">Border Style:</label>
+        <label for="align-items">align-items:</label>
+        <input type="text" id="align-items">
+        <br>
+        <label for="align-self">align-self:</label>
+        <input type="text" id="align-self">
+        <br>
+        <label for="all">all:</label>
+        <input type="text" id="all">
+        <br>
+        <label for="animation">animation:</label>
+        <input type="text" id="animation">
+        <br>
+        <label for="animation-delay">animation-delay:</label>
+        <input type="text" id="animation-delay">
+        <br>
+        <label for="animation-direction">animation-direction:</label>
+        <input type="text" id="animation-direction">
+        <br>
+        <label for="animation-duration">animation-duration:</label>
+        <input type="text" id="animation-duration">
+        <br>
+        <label for="animation-fill-mode">animation-fill-mode:</label>
+        <input type="text" id="animation-fill-mode">
+        <br>
+        <label for="animation-iteration-count">animation-iteration-count:</label>
+        <input type="text" id="animation-iteration-count">
+        <br>
+        <label for="animation-name">animation-name:</label>
+        <input type="text" id="animation-name">
+        <br>
+        <label for="animation-play-state">animation-play-state:</label>
+        <input type="text" id="animation-play-state">
+        <br>
+        <label for="animation-timing-function">animation-timing-function:</label>
+        <input type="text" id="animation-timing-function">
+        <br>
+        <label for="aspect-ratio">aspect-ratio:</label>
+        <input type="text" id="aspect-ratio">
+        <br>
+        <label for="backdrop-filter">backdrop-filter:</label>
+        <input type="text" id="backdrop-filter">
+        <br>
+        <label for="backface-visibility">backface-visibility:</label>
+        <input type="text" id="backface-visibility">
+        <br>
+        <label for="background">background:</label>
+        <input type="text" id="background">
+        <br>
+        <label for="background-attachment">background-attachment:</label>
+        <input type="text" id="background-attachment">
+        <br>
+        <label for="background-blend-mode">background-blend-mode:</label>
+        <input type="text" id="background-blend-mode">
+        <br>
+        <label for="background-clip">background-clip:</label>
+        <input type="text" id="background-clip">
+        <br>
+        <label for="background-color">background-color:</label>
+        <input type="text" id="background-color">
+        <br>
+        <label for="background-image">background-image:</label>
+        <input type="text" id="background-image">
+        <br>
+        <label for="background-origin">background-origin:</label>
+        <input type="text" id="background-origin">
+        <br>
+        <label for="background-position">background-position:</label>
+        <input type="text" id="background-position">
+        <br>
+        <label for="background-position-x">background-position-x:</label>
+        <input type="text" id="background-position-x">
+        <br>
+        <label for="background-position-y">background-position-y:</label>
+        <input type="text" id="background-position-y">
+        <br>
+        <label for="background-repeat">background-repeat:</label>
+        <input type="text" id="background-repeat">
+        <br>
+        <label for="background-size">background-size:</label>
+        <input type="text" id="background-size">
+        <br>
+        <label for="block-size">block-size:</label>
+        <input type="text" id="block-size">
+        <br>
+        <label for="border">border:</label>
+        <input type="text" id="border">
+        <br>
+        <label for="border-block">border-block:</label>
+        <input type="text" id="border-block">
+        <br>
+        <label for="border-block-color">border-block-color:</label>
+        <input type="text" id="border-block-color">
+        <br>
+        <label for="border-block-end">border-block-end:</label>
+        <input type="text" id="border-block-end">
+        <br>
+        <label for="border-block-end-color">border-block-end-color:</label>
+        <input type="text" id="border-block-end-color">
+        <br>
+        <label for="border-block-end-style">border-block-end-style:</label>
+        <input type="text" id="border-block-end-style">
+        <br>
+        <label for="border-block-end-width">border-block-end-width:</label>
+        <input type="text" id="border-block-end-width">
+        <br>
+        <label for="border-block-start">border-block-start:</label>
+        <input type="text" id="border-block-start">
+        <br>
+        <label for="border-block-start-color">border-block-start-color:</label>
+        <input type="text" id="border-block-start-color">
+        <br>
+        <label for="border-block-start-style">border-block-start-style:</label>
+        <input type="text" id="border-block-start-style">
+        <br>
+        <label for="border-block-start-width">border-block-start-width:</label>
+        <input type="text" id="border-block-start-width">
+        <br>
+        <label for="border-block-style">border-block-style:</label>
+        <input type="text" id="border-block-style">
+        <br>
+        <label for="border-block-width">border-block-width:</label>
+        <input type="text" id="border-block-width">
+        <br>
+        <label for="border-bottom">border-bottom:</label>
+        <input type="text" id="border-bottom">
+        <br>
+        <label for="border-bottom-color">border-bottom-color:</label>
+        <input type="text" id="border-bottom-color">
+        <br>
+        <label for="border-bottom-left-radius">border-bottom-left-radius:</label>
+        <input type="text" id="border-bottom-left-radius">
+        <br>
+        <label for="border-bottom-right-radius">border-bottom-right-radius:</label>
+        <input type="text" id="border-bottom-right-radius">
+        <br>
+        <label for="border-bottom-style">border-bottom-style:</label>
+        <input type="text" id="border-bottom-style">
+        <br>
+        <label for="border-bottom-width">border-bottom-width:</label>
+        <input type="text" id="border-bottom-width">
+        <br>
+        <label for="border-collapse">border-collapse:</label>
+        <input type="text" id="border-collapse">
+        <br>
+        <label for="border-color">border-color:</label>
+        <input type="text" id="border-color">
+        <br>
+        <label for="border-end-end-radius">border-end-end-radius:</label>
+        <input type="text" id="border-end-end-radius">
+        <br>
+        <label for="border-end-start-radius">border-end-start-radius:</label>
+        <input type="text" id="border-end-start-radius">
+        <br>
+        <label for="border-image">border-image:</label>
+        <input type="text" id="border-image">
+        <br>
+        <label for="border-image-outset">border-image-outset:</label>
+        <input type="text" id="border-image-outset">
+        <br>
+        <label for="border-image-repeat">border-image-repeat:</label>
+        <input type="text" id="border-image-repeat">
+        <br>
+        <label for="border-image-slice">border-image-slice:</label>
+        <input type="text" id="border-image-slice">
+        <br>
+        <label for="border-image-source">border-image-source:</label>
+        <input type="text" id="border-image-source">
+        <br>
+        <label for="border-image-width">border-image-width:</label>
+        <input type="text" id="border-image-width">
+        <br>
+        <label for="border-inline">border-inline:</label>
+        <input type="text" id="border-inline">
+        <br>
+        <label for="border-inline-color">border-inline-color:</label>
+        <input type="text" id="border-inline-color">
+        <br>
+        <label for="border-inline-end">border-inline-end:</label>
+        <input type="text" id="border-inline-end">
+        <br>
+        <label for="border-inline-end-color">border-inline-end-color:</label>
+        <input type="text" id="border-inline-end-color">
+        <br>
+        <label for="border-inline-end-style">border-inline-end-style:</label>
+        <input type="text" id="border-inline-end-style">
+        <br>
+        <label for="border-inline-end-width">border-inline-end-width:</label>
+        <input type="text" id="border-inline-end-width">
+        <br>
+        <label for="border-inline-start">border-inline-start:</label>
+        <input type="text" id="border-inline-start">
+        <br>
+        <label for="border-inline-start-color">border-inline-start-color:</label>
+        <input type="text" id="border-inline-start-color">
+        <br>
+        <label for="border-inline-start-style">border-inline-start-style:</label>
+        <input type="text" id="border-inline-start-style">
+        <br>
+        <label for="border-inline-start-width">border-inline-start-width:</label>
+        <input type="text" id="border-inline-start-width">
+        <br>
+        <label for="border-inline-style">border-inline-style:</label>
+        <input type="text" id="border-inline-style">
+        <br>
+        <label for="border-inline-width">border-inline-width:</label>
+        <input type="text" id="border-inline-width">
+        <br>
+        <label for="border-left">border-left:</label>
+        <input type="text" id="border-left">
+        <br>
+        <label for="border-left-color">border-left-color:</label>
+        <input type="text" id="border-left-color">
+        <br>
+        <label for="border-left-style">border-left-style:</label>
+        <input type="text" id="border-left-style">
+        <br>
+        <label for="border-left-width">border-left-width:</label>
+        <input type="text" id="border-left-width">
+        <br>
+        <label for="border-radius">border-radius:</label>
+        <input type="text" id="border-radius">
+        <br>
+        <label for="border-right">border-right:</label>
+        <input type="text" id="border-right">
+        <br>
+        <label for="border-right-color">border-right-color:</label>
+        <input type="text" id="border-right-color">
+        <br>
+        <label for="border-right-style">border-right-style:</label>
+        <input type="text" id="border-right-style">
+        <br>
+        <label for="border-right-width">border-right-width:</label>
+        <input type="text" id="border-right-width">
+        <br>
+        <label for="border-spacing">border-spacing:</label>
+        <input type="text" id="border-spacing">
+        <br>
+        <label for="border-start-end-radius">border-start-end-radius:</label>
+        <input type="text" id="border-start-end-radius">
+        <br>
+        <label for="border-start-start-radius">border-start-start-radius:</label>
+        <input type="text" id="border-start-start-radius">
+        <br>
+        <label for="border-style">border-style:</label>
         <input type="text" id="border-style">
         <br>
-        <label for="border-color">Border Color:</label>
-        <input type="color" style="height: 50px; border-radius:20px; width:50px " id="border-color">
+        <label for="border-top">border-top:</label>
+        <input type="text" id="border-top">
         <br>
-        <label for="text">Text:</label>
-        <input type="text" id="text">
+        <label for="border-top-color">border-top-color:</label>
+        <input type="text" id="border-top-color">
         <br>
-        <label for="font-size">Font Size:</label>
-        <input type="number" id="font-size">
+        <label for="border-top-left-radius">border-top-left-radius:</label>
+        <input type="text" id="border-top-left-radius">
         <br>
-        <label for="font-color">Font Color:</label>
-        <input type="color" style="height: 50px; border-radius:20px; width:50px " id="font-color">
+        <label for="border-top-right-radius">border-top-right-radius:</label>
+        <input type="text" id="border-top-right-radius">
         <br>
-        <label for="margin-top">Margin top:</label>
-        <input type="number" id="margin-top">
+        <label for="border-top-style">border-top-style:</label>
+        <input type="text" id="border-top-style">
         <br>
-        <label for="margin-bottom">Margin bottom:</label>
-        <input type="number" id="margin-bottom">
+        <label for="border-top-width">border-top-width:</label>
+        <input type="text" id="border-top-width">
         <br>
-        <label for="margin-right">Margin right:</label>
-        <input type="number" id="margin-right">
+        <label for="border-width">border-width:</label>
+        <input type="text" id="border-width">
         <br>
-        <label for="margin-left">Margin left:</label>
-        <input type="number" id="margin-left">
+        <label for="box-decoration-break">box-decoration-break:</label>
+        <input type="text" id="box-decoration-break">
         <br>
-        <label for="padding-top">Padding top:</label>
-        <input type="number" id="padding-top">
+        <label for="box-reflect">box-reflect:</label>
+        <input type="text" id="box-reflect">
         <br>
-        <label for="padding-bottom">Padding-bottom:</label>
-        <input type="number" id="padding-bottom">
+        <label for="box-shadow">box-shadow:</label>
+        <input type="text" id="box-shadow">
         <br>
-        <label for="padding-right">Padding right:</label>
-        <input type="number" id="padding-right">
+        <label for="box-sizing">box-sizing:</label>
+        <input type="text" id="box-sizing">
         <br>
-        <label for="padding-left">Padding left:</label>
-        <input type="number" id="padding-left">
+        <label for="break-after">break-after:</label>
+        <input type="text" id="break-after">
         <br>
-        <label for="display">Display:</label>
+        <label for="break-before">break-before:</label>
+        <input type="text" id="break-before">
+        <br>
+        <label for="break-inside">break-inside:</label>
+        <input type="text" id="break-inside">
+        <br>
+        <label for="caption-side">caption-side:</label>
+        <input type="text" id="caption-side">
+        <br>
+        <label for="caret-color">caret-color:</label>
+        <input type="text" id="caret-color">
+        <!-- <br>
+        <label for="@charset">@charset:</label>
+        <input type="text" id="@charset"> -->
+        <br>
+        <label for="clear">clear:</label>
+        <input type="text" id="clear">
+        <br>
+        <label for="clip">clip:</label>
+        <input type="text" id="clip">
+        <br>
+        <label for="clip-path">clip-path:</label>
+        <input type="text" id="clip-path">
+        <br>
+        <label for="color">color:</label>
+        <input type="text" id="color">
+        <br>
+        <label for="color-scheme">color-scheme:</label>
+        <input type="text" id="color-scheme">
+        <br>
+        <label for="column-count">column-count:</label>
+        <input type="text" id="column-count">
+        <br>
+        <label for="column-fill">column-fill:</label>
+        <input type="text" id="column-fill">
+        <br>
+        <label for="column-gap">column-gap:</label>
+        <input type="text" id="column-gap">
+        <br>
+        <label for="column-rule">column-rule:</label>
+        <input type="text" id="column-rule">
+        <br>
+        <label for="column-rule-color">column-rule-color:</label>
+        <input type="text" id="column-rule-color">
+        <br>
+        <label for="column-rule-style">column-rule-style:</label>
+        <input type="text" id="column-rule-style">
+        <br>
+        <label for="column-rule-width">column-rule-width:</label>
+        <input type="text" id="column-rule-width">
+        <br>
+        <label for="column-span">column-span:</label>
+        <input type="text" id="column-span">
+        <br>
+        <label for="column-width">column-width:</label>
+        <input type="text" id="column-width">
+        <br>
+        <label for="columns">columns:</label>
+        <input type="text" id="columns">
+        <!-- <br>
+        <label for="@container">@container:</label>
+        <input type="text" id="@container"> -->
+        <br>
+        <label for="content">content:</label>
+        <input type="text" id="content">
+        <br>
+        <label for="counter-increment">counter-increment:</label>
+        <input type="text" id="counter-increment">
+        <br>
+        <label for="counter-reset">counter-reset:</label>
+        <input type="text" id="counter-reset">
+        <br>
+        <label for="counter-set">counter-set:</label>
+        <input type="text" id="counter-set">
+        <!-- <br>
+        <label for="@counter-style">@counter-style:</label>
+        <input type="text" id="@counter-style"> -->
+        <br>
+        <label for="cursor">cursor:</label>
+        <input type="text" id="cursor">
+        <br>
+        <label for="direction">direction:</label>
+        <input type="text" id="direction">
+        <br>
+        <label for="display">display:</label>
         <input type="text" id="display">
+        <br>
+        <label for="empty-cells">empty-cells:</label>
+        <input type="text" id="empty-cells">
+        <br>
+        <label for="filter">filter:</label>
+        <input type="text" id="filter">
+        <br>
+        <label for="flex">flex:</label>
+        <input type="text" id="flex">
+        <br>
+        <label for="flex-basis">flex-basis:</label>
+        <input type="text" id="flex-basis">
+        <br>
+        <label for="flex-direction">flex-direction:</label>
+        <input type="text" id="flex-direction">
+        <br>
+        <label for="flex-flow">flex-flow:</label>
+        <input type="text" id="flex-flow">
+        <br>
+        <label for="flex-grow">flex-grow:</label>
+        <input type="text" id="flex-grow">
+        <br>
+        <label for="flex-shrink">flex-shrink:</label>
+        <input type="text" id="flex-shrink">
+        <br>
+        <label for="flex-wrap">flex-wrap:</label>
+        <input type="text" id="flex-wrap">
+        <br>
+        <label for="float">float:</label>
+        <input type="text" id="float">
+        <br>
+        <label for="font">font:</label>
+        <input type="text" id="font">
+        <!-- <br>
+        <label for="@font-face">@font-face:</label>
+        <input type="text" id="@font-face"> -->
+        <br>
+        <label for="font-family">font-family:</label>
+        <input type="text" id="font-family">
+        <br>
+        <label for="font-feature-settings">font-feature-settings:</label>
+        <input type="text" id="font-feature-settings">
+        <br>
+        <label for="font-kerning">font-kerning:</label>
+        <input type="text" id="font-kerning">
+        <!-- <br>
+        <label for="@font-palette-values">@font-palette-values:</label>
+        <input type="text" id="@font-palette-values"> -->
+        <br>
+        <label for="font-size">font-size:</label>
+        <input type="text" id="font-size">
+        <br>
+        <label for="font-size-adjust">font-size-adjust:</label>
+        <input type="text" id="font-size-adjust">
+        <br>
+        <label for="font-stretch">font-stretch:</label>
+        <input type="text" id="font-stretch">
+        <br>
+        <label for="font-style">font-style:</label>
+        <input type="text" id="font-style">
+        <br>
+        <label for="font-variant">font-variant:</label>
+        <input type="text" id="font-variant">
+        <br>
+        <label for="font-variant-caps">font-variant-caps:</label>
+        <input type="text" id="font-variant-caps">
+        <br>
+        <label for="font-weight">font-weight:</label>
+        <input type="text" id="font-weight">
+        <br>
+        <label for="gap">gap:</label>
+        <input type="text" id="gap">
+        <br>
+        <label for="grid">grid:</label>
+        <input type="text" id="grid">
+        <br>
+        <label for="grid-area">grid-area:</label>
+        <input type="text" id="grid-area">
+        <br>
+        <label for="grid-auto-columns">grid-auto-columns:</label>
+        <input type="text" id="grid-auto-columns">
+        <br>
+        <label for="grid-auto-flow">grid-auto-flow:</label>
+        <input type="text" id="grid-auto-flow">
+        <br>
+        <label for="grid-auto-rows">grid-auto-rows:</label>
+        <input type="text" id="grid-auto-rows">
+        <br>
+        <label for="grid-column">grid-column:</label>
+        <input type="text" id="grid-column">
+        <br>
+        <label for="grid-column-end">grid-column-end:</label>
+        <input type="text" id="grid-column-end">
+        <br>
+        <label for="grid-column-start">grid-column-start:</label>
+        <input type="text" id="grid-column-start">
+        <br>
+        <label for="grid-row">grid-row:</label>
+        <input type="text" id="grid-row">
+        <br>
+        <label for="grid-row-end">grid-row-end:</label>
+        <input type="text" id="grid-row-end">
+        <br>
+        <label for="grid-row-start">grid-row-start:</label>
+        <input type="text" id="grid-row-start">
+        <br>
+        <label for="grid-template">grid-template:</label>
+        <input type="text" id="grid-template">
+        <br>
+        <label for="grid-template-areas">grid-template-areas:</label>
+        <input type="text" id="grid-template-areas">
+        <br>
+        <label for="grid-template-columns">grid-template-columns:</label>
+        <input type="text" id="grid-template-columns">
+        <br>
+        <label for="grid-template-rows">grid-template-rows:</label>
+        <input type="text" id="grid-template-rows">
+        <br>
+        <label for="hanging-punctuation">hanging-punctuation:</label>
+        <input type="text" id="hanging-punctuation">
+        <br>
+        <label for="hyphens">hyphens:</label>
+        <input type="text" id="hyphens">
+        <br>
+        <label for="hyphenate-character">hyphenate-character:</label>
+        <input type="text" id="hyphenate-character">
+        <br>
+        <label for="image-rendering">image-rendering:</label>
+        <input type="text" id="image-rendering">
+        <!-- <br>
+        <label for="@import">@import:</label>
+        <input type="text" id="@import"> -->
+        <br>
+        <label for="initial-letter">initial-letter:</label>
+        <input type="text" id="initial-letter">
+        <br>
+        <label for="inline-size">inline-size:</label>
+        <input type="text" id="inline-size">
+        <br>
+        <label for="inset">inset:</label>
+        <input type="text" id="inset">
+        <br>
+        <label for="inset-block">inset-block:</label>
+        <input type="text" id="inset-block">
+        <br>
+        <label for="inset-block-end">inset-block-end:</label>
+        <input type="text" id="inset-block-end">
+        <br>
+        <label for="inset-block-start">inset-block-start:</label>
+        <input type="text" id="inset-block-start">
+        <br>
+        <label for="inset-inline">inset-inline:</label>
+        <input type="text" id="inset-inline">
+        <br>
+        <label for="inset-inline-end">inset-inline-end:</label>
+        <input type="text" id="inset-inline-end">
+        <br>
+        <label for="inset-inline-start">inset-inline-start:</label>
+        <input type="text" id="inset-inline-start">
+        <br>
+        <label for="isolation">isolation:</label>
+        <input type="text" id="isolation">
+        <br>
+        <label for="justify-content">justify-content:</label>
+        <input type="text" id="justify-content">
+        <br>
+        <label for="justify-items">justify-items:</label>
+        <input type="text" id="justify-items">
+        <br>
+        <label for="justify-self">justify-self:</label>
+        <input type="text" id="justify-self">
+        <!-- <br>
+        <label for="@keyframes">@keyframes:</label>
+        <input type="text" id="@keyframes">
+        <br>
+        <label for="@layer">@layer:</label>
+        <input type="text" id="@layer"> -->
+        <br>
+        <label for="letter-spacing">letter-spacing:</label>
+        <input type="text" id="letter-spacing">
+        <br>
+        <label for="line-height">line-height:</label>
+        <input type="text" id="line-height">
+        <br>
+        <label for="list-style">list-style:</label>
+        <input type="text" id="list-style">
+        <br>
+        <label for="list-style-image">list-style-image:</label>
+        <input type="text" id="list-style-image">
+        <br>
+        <label for="list-style-position">list-style-position:</label>
+        <input type="text" id="list-style-position">
+        <br>
+        <label for="list-style-type">list-style-type:</label>
+        <input type="text" id="list-style-type">
+        <br>
+        <label for="margin">margin:</label>
+        <input type="text" id="margin">
+        <br>
+        <label for="margin-block">margin-block:</label>
+        <input type="text" id="margin-block">
+        <br>
+        <label for="margin-block-end">margin-block-end:</label>
+        <input type="text" id="margin-block-end">
+        <br>
+        <label for="margin-block-start">margin-block-start:</label>
+        <input type="text" id="margin-block-start">
+        <br>
+        <label for="margin-bottom">margin-bottom:</label>
+        <input type="text" id="margin-bottom">
+        <br>
+        <label for="margin-inline">margin-inline:</label>
+        <input type="text" id="margin-inline">
+        <br>
+        <label for="margin-inline-end">margin-inline-end:</label>
+        <input type="text" id="margin-inline-end">
+        <br>
+        <label for="margin-inline-start">margin-inline-start:</label>
+        <input type="text" id="margin-inline-start">
+        <br>
+        <label for="margin-left">margin-left:</label>
+        <input type="text" id="margin-left">
+        <br>
+        <label for="margin-right">margin-right:</label>
+        <input type="text" id="margin-right">
+        <br>
+        <label for="margin-top">margin-top:</label>
+        <input type="text" id="margin-top">
+        <br>
+        <label for="marker">marker:</label>
+        <input type="text" id="marker">
+        <br>
+        <label for="marker-end">marker-end:</label>
+        <input type="text" id="marker-end">
+        <br>
+        <label for="marker-mid">marker-mid:</label>
+        <input type="text" id="marker-mid">
+        <br>
+        <label for="marker-start">marker-start:</label>
+        <input type="text" id="marker-start">
+        <br>
+        <label for="mask">mask:</label>
+        <input type="text" id="mask">
+        <br>
+        <label for="mask-clip">mask-clip:</label>
+        <input type="text" id="mask-clip">
+        <br>
+        <label for="mask-composite">mask-composite:</label>
+        <input type="text" id="mask-composite">
+        <br>
+        <label for="mask-image">mask-image:</label>
+        <input type="text" id="mask-image">
+        <br>
+        <label for="mask-mode">mask-mode:</label>
+        <input type="text" id="mask-mode">
+        <br>
+        <label for="mask-origin">mask-origin:</label>
+        <input type="text" id="mask-origin">
+        <br>
+        <label for="mask-position">mask-position:</label>
+        <input type="text" id="mask-position">
+        <br>
+        <label for="mask-repeat">mask-repeat:</label>
+        <input type="text" id="mask-repeat">
+        <br>
+        <label for="mask-size">mask-size:</label>
+        <input type="text" id="mask-size">
+        <br>
+        <label for="mask-type">mask-type:</label>
+        <input type="text" id="mask-type">
+        <br>
+        <label for="max-block-size">max-block-size:</label>
+        <input type="text" id="max-block-size">
+        <br>
+        <label for="max-height">max-height:</label>
+        <input type="text" id="max-height">
+        <br>
+        <label for="max-inline-size">max-inline-size:</label>
+        <input type="text" id="max-inline-size">
+        <br>
+        <label for="max-width">max-width:</label>
+        <input type="text" id="max-width">
+        <!-- <br>
+        <label for="@media">@media:</label>
+        <input type="text" id="@media"> -->
+        <br>
+        <label for="min-block-size">min-block-size:</label>
+        <input type="text" id="min-block-size">
+        <br>
+        <label for="min-inline-size">min-inline-size:</label>
+        <input type="text" id="min-inline-size">
+        <br>
+        <label for="min-height">min-height:</label>
+        <input type="text" id="min-height">
+        <br>
+        <label for="min-width">min-width:</label>
+        <input type="text" id="min-width">
+        <br>
+        <label for="mix-blend-mode">mix-blend-mode:</label>
+        <input type="text" id="mix-blend-mode">
+        <!-- <br>
+        <label for="@namespace">@namespace:</label>
+        <input type="text" id="@namespace"> -->
+        <br>
+        <label for="object-fit">object-fit:</label>
+        <input type="text" id="object-fit">
+        <br>
+        <label for="object-position">object-position:</label>
+        <input type="text" id="object-position">
+        <br>
+        <label for="offset">offset:</label>
+        <input type="text" id="offset">
+        <br>
+        <label for="offset-anchor">offset-anchor:</label>
+        <input type="text" id="offset-anchor">
+        <br>
+        <label for="offset-distance">offset-distance:</label>
+        <input type="text" id="offset-distance">
+        <br>
+        <label for="offset-path">offset-path:</label>
+        <input type="text" id="offset-path">
+        <br>
+        <label for="offset-position">offset-position:</label>
+        <input type="text" id="offset-position">
+        <br>
+        <label for="offset-rotate">offset-rotate:</label>
+        <input type="text" id="offset-rotate">
+        <br>
+        <label for="opacity">opacity:</label>
+        <input type="text" id="opacity">
+        <br>
+        <label for="order">order:</label>
+        <input type="text" id="order">
+        <br>
+        <label for="orphans">orphans:</label>
+        <input type="text" id="orphans">
+        <br>
+        <label for="outline">outline:</label>
+        <input type="text" id="outline">
+        <br>
+        <label for="outline-color">outline-color:</label>
+        <input type="text" id="outline-color">
+        <br>
+        <label for="outline-offset">outline-offset:</label>
+        <input type="text" id="outline-offset">
+        <br>
+        <label for="outline-style">outline-style:</label>
+        <input type="text" id="outline-style">
+        <br>
+        <label for="outline-width">outline-width:</label>
+        <input type="text" id="outline-width">
+        <br>
+        <label for="overflow">overflow:</label>
+        <input type="text" id="overflow">
+        <br>
+        <label for="overflow-anchor">overflow-anchor:</label>
+        <input type="text" id="overflow-anchor">
+        <br>
+        <label for="overflow-wrap">overflow-wrap:</label>
+        <input type="text" id="overflow-wrap">
+        <br>
+        <label for="overflow-x">overflow-x:</label>
+        <input type="text" id="overflow-x">
+        <br>
+        <label for="overflow-y">overflow-y:</label>
+        <input type="text" id="overflow-y">
+        <br>
+        <label for="overscroll-behavior">overscroll-behavior:</label>
+        <input type="text" id="overscroll-behavior">
+        <br>
+        <label for="overscroll-behavior-block">overscroll-behavior-block:</label>
+        <input type="text" id="overscroll-behavior-block">
+        <br>
+        <label for="overscroll-behavior-inline">overscroll-behavior-inline:</label>
+        <input type="text" id="overscroll-behavior-inline">
+        <br>
+        <label for="overscroll-behavior-x">overscroll-behavior-x:</label>
+        <input type="text" id="overscroll-behavior-x">
+        <br>
+        <label for="overscroll-behavior-y">overscroll-behavior-y:</label>
+        <input type="text" id="overscroll-behavior-y">
+        <br>
+        <label for="padding">padding:</label>
+        <input type="text" id="padding">
+        <br>
+        <label for="padding-block">padding-block:</label>
+        <input type="text" id="padding-block">
+        <br>
+        <label for="padding-block-end">padding-block-end:</label>
+        <input type="text" id="padding-block-end">
+        <br>
+        <label for="padding-block-start">padding-block-start:</label>
+        <input type="text" id="padding-block-start">
+        <br>
+        <label for="padding-bottom">padding-bottom:</label>
+        <input type="text" id="padding-bottom">
+        <br>
+        <label for="padding-inline">padding-inline:</label>
+        <input type="text" id="padding-inline">
+        <br>
+        <label for="padding-inline-end">padding-inline-end:</label>
+        <input type="text" id="padding-inline-end">
+        <br>
+        <label for="padding-inline-start">padding-inline-start:</label>
+        <input type="text" id="padding-inline-start">
+        <br>
+        <label for="padding-left">padding-left:</label>
+        <input type="text" id="padding-left">
+        <br>
+        <label for="padding-right">padding-right:</label>
+        <input type="text" id="padding-right">
+        <br>
+        <label for="padding-top">padding-top:</label>
+        <input type="text" id="padding-top">
+        <!-- <br>
+        <label for="@page">@page:</label>
+        <input type="text" id="@page"> -->
+        <br>
+        <label for="page-break-after">page-break-after:</label>
+        <input type="text" id="page-break-after">
+        <br>
+        <label for="page-break-before">page-break-before:</label>
+        <input type="text" id="page-break-before">
+        <br>
+        <label for="page-break-inside">page-break-inside:</label>
+        <input type="text" id="page-break-inside">
+        <br>
+        <label for="paint-order">paint-order:</label>
+        <input type="text" id="paint-order">
+        <br>
+        <label for="perspective">perspective:</label>
+        <input type="text" id="perspective">
+        <br>
+        <label for="perspective-origin">perspective-origin:</label>
+        <input type="text" id="perspective-origin">
+        <br>
+        <label for="place-content">place-content:</label>
+        <input type="text" id="place-content">
+        <br>
+        <label for="place-items">place-items:</label>
+        <input type="text" id="place-items">
+        <br>
+        <label for="place-self">place-self:</label>
+        <input type="text" id="place-self">
+        <br>
+        <label for="pointer-events">pointer-events:</label>
+        <input type="text" id="pointer-events">
+        <br>
+        <label for="position">position:</label>
+        <input type="text" id="position">
+        <!-- <br>
+        <label for="@property">@property:</label>
+        <input type="text" id="@property"> -->
+        <br>
+        <label for="quotes">quotes:</label>
+        <input type="text" id="quotes">
+        <br>
+        <label for="resize">resize:</label>
+        <input type="text" id="resize">
+
+        <br>
+        <label for="rotate">rotate:</label>
+        <input type="text" id="rotate">
+        <br>
+        <label for="row-gap">row-gap:</label>
+        <input type="text" id="row-gap">
+        <br>
+        <label for="scale">scale:</label>
+        <input type="text" id="scale">
+        <!-- <br>
+        <label for="@scope">@scope:</label>
+        <input type="text" id="@scope"> -->
+        <br>
+        <label for="scroll-behavior">scroll-behavior:</label>
+        <input type="text" id="scroll-behavior">
+        <br>
+        <label for="scroll-margin">scroll-margin:</label>
+        <input type="text" id="scroll-margin">
+        <br>
+        <label for="scroll-margin-block">scroll-margin-block:</label>
+        <input type="text" id="scroll-margin-block">
+        <br>
+        <label for="scroll-margin-block-end">scroll-margin-block-end:</label>
+        <input type="text" id="scroll-margin-block-end">
+        <br>
+        <label for="scroll-margin-block-start">scroll-margin-block-start:</label>
+        <input type="text" id="scroll-margin-block-start">
+        <br>
+        <label for="scroll-margin-bottom">scroll-margin-bottom:</label>
+        <input type="text" id="scroll-margin-bottom">
+        <br>
+        <label for="scroll-margin-inline">scroll-margin-inline:</label>
+        <input type="text" id="scroll-margin-inline">
+        <br>
+        <label for="scroll-margin-inline-end">scroll-margin-inline-end:</label>
+        <input type="text" id="scroll-margin-inline-end">
+        <br>
+        <label for="scroll-margin-inline-start">scroll-margin-inline-start:</label>
+        <input type="text" id="scroll-margin-inline-start">
+        <br>
+        <label for="scroll-margin-left">scroll-margin-left:</label>
+        <input type="text" id="scroll-margin-left">
+        <br>
+        <label for="scroll-margin-right">scroll-margin-right:</label>
+        <input type="text" id="scroll-margin-right">
+        <br>
+        <label for="scroll-margin-top">scroll-margin-top:</label>
+        <input type="text" id="scroll-margin-top">
+        <br>
+        <label for="scroll-padding">scroll-padding:</label>
+        <input type="text" id="scroll-padding">
+        <br>
+        <label for="scroll-padding-block">scroll-padding-block:</label>
+        <input type="text" id="scroll-padding-block">
+        <br>
+        <label for="scroll-padding-block-end">scroll-padding-block-end:</label>
+        <input type="text" id="scroll-padding-block-end">
+        <br>
+        <label for="scroll-padding-block-start">scroll-padding-block-start:</label>
+        <input type="text" id="scroll-padding-block-start">
+        <br>
+        <label for="scroll-padding-bottom">scroll-padding-bottom:</label>
+        <input type="text" id="scroll-padding-bottom">
+        <br>
+        <label for="scroll-padding-inline">scroll-padding-inline:</label>
+        <input type="text" id="scroll-padding-inline">
+        <br>
+        <label for="scroll-padding-inline-end">scroll-padding-inline-end:</label>
+        <input type="text" id="scroll-padding-inline-end">
+        <br>
+        <label for="scroll-padding-inline-start">scroll-padding-inline-start:</label>
+        <input type="text" id="scroll-padding-inline-start">
+        <br>
+        <label for="scroll-padding-left">scroll-padding-left:</label>
+        <input type="text" id="scroll-padding-left">
+        <br>
+        <label for="scroll-padding-right">scroll-padding-right:</label>
+        <input type="text" id="scroll-padding-right">
+        <br>
+        <label for="scroll-padding-top">scroll-padding-top:</label>
+        <input type="text" id="scroll-padding-top">
+        <br>
+        <label for="scroll-snap-align">scroll-snap-align:</label>
+        <input type="text" id="scroll-snap-align">
+        <br>
+        <label for="scroll-snap-stop">scroll-snap-stop:</label>
+        <input type="text" id="scroll-snap-stop">
+        <br>
+        <label for="scroll-snap-type">scroll-snap-type:</label>
+        <input type="text" id="scroll-snap-type">
+        <br>
+        <label for="scrollbar-color">scrollbar-color:</label>
+        <input type="text" id="scrollbar-color">
+        <br>
+        <label for="shape-outside">shape-outside:</label>
+        <input type="text" id="shape-outside">
+        <!-- <br>
+        <label for="@starting-style">@starting-style:</label>
+        <input type="text" id="@starting-style">
+        <br>
+        <label for="@supports">@supports:</label>
+        <input type="text" id="@supports"> -->
+        <br>
+        <label for="tab-size">tab-size:</label>
+        <input type="text" id="tab-size">
+        <br>
+        <label for="table-layout">table-layout:</label>
+        <input type="text" id="table-layout">
+        <br>
+        <label for="text-align">text-align:</label>
+        <input type="text" id="text-align">
+        <br>
+        <label for="text-align-last">text-align-last:</label>
+        <input type="text" id="text-align-last">
+        <br>
+        <label for="text-decoration">text-decoration:</label>
+        <input type="text" id="text-decoration">
+        <br>
+        <label for="text-decoration-color">text-decoration-color:</label>
+        <input type="text" id="text-decoration-color">
+        <br>
+        <label for="text-decoration-line">text-decoration-line:</label>
+        <input type="text" id="text-decoration-line">
+        <br>
+        <label for="text-decoration-style">text-decoration-style:</label>
+        <input type="text" id="text-decoration-style">
+        <br>
+        <label for="text-decoration-thickness">text-decoration-thickness:</label>
+        <input type="text" id="text-decoration-thickness">
+        <br>
+        <label for="text-emphasis">text-emphasis:</label>
+        <input type="text" id="text-emphasis">
+        <br>
+        <label for="text-emphasis-color">text-emphasis-color:</label>
+        <input type="text" id="text-emphasis-color">
+        <br>
+        <label for="text-emphasis-position">text-emphasis-position:</label>
+        <input type="text" id="text-emphasis-position">
+        <br>
+        <label for="text-emphasis-style">text-emphasis-style:</label>
+        <input type="text" id="text-emphasis-style">
+        <br>
+        <label for="text-indent">text-indent:</label>
+        <input type="text" id="text-indent">
+        <br>
+        <label for="text-justify">text-justify:</label>
+        <input type="text" id="text-justify">
+        <br>
+        <label for="text-orientation">text-orientation:</label>
+        <input type="text" id="text-orientation">
+        <br>
+        <label for="text-overflow">text-overflow:</label>
+        <input type="text" id="text-overflow">
+        <br>
+        <label for="text-shadow">text-shadow:</label>
+        <input type="text" id="text-shadow">
+        <br>
+        <label for="text-transform">text-transform:</label>
+        <input type="text" id="text-transform">
+        <br>
+        <label for="text-underline-offset">text-underline-offset:</label>
+        <input type="text" id="text-underline-offset">
+        <br>
+        <label for="text-underline-position">text-underline-position:</label>
+        <input type="text" id="text-underline-position">
+        <br>
+        <label for="transform">transform:</label>
+        <input type="text" id="transform">
+        <br>
+        <label for="transform-origin">transform-origin:</label>
+        <input type="text" id="transform-origin">
+        <br>
+        <label for="transform-style">transform-style:</label>
+        <input type="text" id="transform-style">
+        <br>
+        <label for="transition">transition:</label>
+        <input type="text" id="transition">
+        <br>
+        <label for="transition-delay">transition-delay:</label>
+        <input type="text" id="transition-delay">
+        <br>
+        <label for="transition-duration">transition-duration:</label>
+        <input type="text" id="transition-duration">
+        <br>
+        <label for="transition-property">transition-property:</label>
+        <input type="text" id="transition-property">
+        <br>
+        <label for="transition-timing-function">transition-timing-function:</label>
+        <input type="text" id="transition-timing-function">
+        <br>
+        <label for="translate">translate:</label>
+        <input type="text" id="translate">
+        <br>
+        <label for="unicode-bidi">unicode-bidi:</label>
+        <input type="text" id="unicode-bidi">
+        <br>
+        <label for="user-select">user-select:</label>
+        <input type="text" id="user-select">
+        <br>
+        <label for="vertical-align">vertical-align:</label>
+        <input type="text" id="vertical-align">
+        <br>
+        <label for="visibility">visibility:</label>
+        <input type="text" id="visibility">
+        <br>
+        <label for="white-space">white-space:</label>
+        <input type="text" id="white-space">
+        <br>
+        <label for="widows">widows:</label>
+        <input type="text" id="widows">
+        <br>
+        <label for="word-break">word-break:</label>
+        <input type="text" id="word-break">
+        <br>
+        <label for="word-spacing">word-spacing:</label>
+        <input type="text" id="word-spacing">
+        <br>
+        <label for="word-wrap">word-wrap:</label>
+        <input type="text" id="word-wrap">
+        <br>
+        <label for="writing-mode">writing-mode:</label>
+        <input type="text" id="writing-mode">
         <br>
         <label for="z-index">z-index:</label>
         <input type="text" id="z-index">
+        <br>
+        <label for="zoom">zoom:</label>
+        <input type="text" id="zoom">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
 
     <script src="script.js"></script>
