@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search by ID</title>
+</head>
+
+<body>
+    <input type="text" id="searchBox" placeholder="Masukkan ID">
+    <button onclick="searchById()">Cari</button>
+
+    <div id="result"></div>
+
+    <!-- Elemen yang akan dicari -->
+    <div id="item1">Ini adalah Item 1</div>
+    <div id="item2">Ini adalah Item 2</div>
+
+    <script>
+        function searchById() {
+            const searchBox = document.getElementById('searchBox').value; // Ambil nilai input
+            const element = document.getElementById(searchBox); // Cari elemen dengan ID
+
+            const result = document.getElementById('result');
+            if (element) {
+                result.innerHTML = `Hasil: ${element.innerHTML}`; // Tampilkan elemen jika ditemukan
+            } else {
+                result.innerHTML = 'ID tidak ditemukan';
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -4,13 +4,40 @@ const input = document.getElementById("input");
 const div = document.getElementById("div");
 const h = document.querySelectorAll(".h");
 //Untuk melakukan perubahan bagi elemen yang dipilih secara real time
+
+// initial,inherit, unset 
+//initial digunakan untuk membuat style nya kembali kestyle default bawaan browser
+//inherit digunakan untuk membuat style nya mewarisi nilai bawaan induknya
+//unset adalah kombinasi keduanya
+
+//accent color digunakan untuk di tag <input> dengan type ,checkbox, radio, range, dan juga <tag> progress
 const accentcolor = document.getElementById("accent-color");
+
+//algin-content digunakan dengan display flex atau grid dan hanya berlaku disuatu container itu memiliki lebih dari satu baris content.
+// dan nilai yang diterimanya: stretch,center,flex - start,flex - end,space - between,space - around,space - evenly,
 const aligncontent = document.getElementById("align-content");
+
+//align items digunakan dengan display flex atau grid untuk perataan  item  dalam sebuah baris
+//nilai yang didukungnya: stretch, center, flex-start, flex-end, baseline
 const alignitems = document.getElementById("align-items");
+
+//align self digunakan dengan ketentuan display flex atau grid 
+// nilai yang diterimanya :stretch;,center;,flex-start;,flex-end;,baseline;
 const alignself = document.getElementById("align-self");
+
+//all digunakan untuk mengatur atau mengatur ulang semua properti CSS yang dapat diwariskan atau tidak dapat diwariskan pada sebuah elemen
+//nilai yang diterima : initial ,inherit ,unset
 const all = document.getElementById("all");
+
+//animation ini dgunakan untuk melakukan pergerakan container seperti animasi tapi klo properti ini adalah paket lengkap dari animation karena animation ini memiliki pecahan
 const animation = document.getElementById("animation");
+
+//animation delay digunakan untuk kapan animasinya dimulai
+//nilai yang diterima : time,initial,inherit
 const animationdelay = document.getElementById("animation-delay");
+
+//animation direction ini mengatur gaya berpindahnya
+//nilai yang diterima : normal, reserve, alternate, alternate-reserve, initial ,inherit
 const animationdirection = document.getElementById("animation-direction");
 const animationduration = document.getElementById("animation-duration");
 const animationfillmode = document.getElementById("animation-fill-mode");
