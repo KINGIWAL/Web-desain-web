@@ -869,7 +869,6 @@ function closeNav2() {
                 if (input.id === "break-inside") selectedElement.style.breakInside = input.value;
                 if (input.id === "caption-side") selectedElement.style.captionSide = input.value;
                 if (input.id === "caret-color") selectedElement.style.caretColor = input.value;
-
                 if (input.id === "clear") selectedElement.style.clear = input.value;
                 if (input.id === "clip") selectedElement.style.clip = input.value;
                 if (input.id === "clip-path") selectedElement.style.clipPath = input.value;
@@ -885,12 +884,10 @@ function closeNav2() {
                 if (input.id === "column-span") selectedElement.style.columnSpan = input.value;
                 if (input.id === "column-width") selectedElement.style.columnWidth = input.value;
                 if (input.id === "columns") selectedElement.style.columns = input.value;
-
                 if (input.id === "content") selectedElement.style.content = input.value;
                 if (input.id === "counter-increment") selectedElement.style.counterIncrement = input.value;
                 if (input.id === "counter-reset") selectedElement.style.counterReset = input.value;
                 if (input.id === "counter-set") selectedElement.style.counterSet = input.value;
-
                 if (input.id === "cursor") selectedElement.style.cursor = input.value;
                 if (input.id === "direction") selectedElement.style.direction = input.value;
                 if (input.id === "display") selectedElement.style.display = input.value;
@@ -905,11 +902,9 @@ function closeNav2() {
                 if (input.id === "flex-wrap") selectedElement.style.flexWrap = input.value;
                 if (input.id === "float") selectedElement.style.float = input.value;
                 if (input.id === "font") selectedElement.style.font = input.value;
-
                 if (input.id === "font-family") selectedElement.style.fontFamily = input.value;
                 if (input.id === "font-feature-settings") selectedElement.style.fontFeatureSettings = input.value;
                 if (input.id === "font-kerning") selectedElement.style.fontKerning = input.value;
-
                 if (input.id === "font-size") selectedElement.style.fontSize = input.value;
                 if (input.id === "font-size-adjust") selectedElement.style.fontSizeAdjust = input.value;
                 if (input.id === "font-stretch") selectedElement.style.fontStretch = input.value;
@@ -938,7 +933,6 @@ function closeNav2() {
                 if (input.id === "hyphens") selectedElement.style.hyphens = input.value;
                 if (input.id === "hyphenate-character") selectedElement.style.hyphenateCharacter = input.value;
                 if (input.id === "image-rendering") selectedElement.style.imageRendering = input.value;
-
                 if (input.id === "initial-letter") selectedElement.style.initialLetter = input.value;
                 if (input.id === "inline-size") selectedElement.style.inlineSize = input.value;
                 if (input.id === "inset") selectedElement.style.inset = input.value;
@@ -952,8 +946,6 @@ function closeNav2() {
                 if (input.id === "justify-content") selectedElement.style.justifyContent = input.value;
                 if (input.id === "justify-items") selectedElement.style.justifyItems = input.value;
                 if (input.id === "justify-self") selectedElement.style.justifySelf = input.value;
-
-
                 if (input.id === "left") selectedElement.style.left = input.value;
                 if (input.id === "letter-spacing") selectedElement.style.letterSpacing = input.value;
                 if (input.id === "line-height") selectedElement.style.lineHeight = input.value;
@@ -990,13 +982,11 @@ function closeNav2() {
                 if (input.id === "max-height") selectedElement.style.maxHeight = input.value;
                 if (input.id === "max-inline-size") selectedElement.style.maxInlineSize = input.value;
                 if (input.id === "max-width") selectedElement.style.maxWidth = input.value;
-
                 if (input.id === "min-block-size") selectedElement.style.minBlockSize = input.value;
                 if (input.id === "min-inline-size") selectedElement.style.minInlineSize = input.value;
                 if (input.id === "min-height") selectedElement.style.minHeight = input.value;
                 if (input.id === "min-width") selectedElement.style.minWidth = input.value;
                 if (input.id === "mix-blend-mode") selectedElement.style.mixBlendMode = input.value;
-
                 if (input.id === "object-fit") selectedElement.style.objectFit = input.value;
                 if (input.id === "object-position") selectedElement.style.objectPosition = input.value;
                 if (input.id === "offset") selectedElement.style.offset = input.value;
@@ -1034,7 +1024,6 @@ function closeNav2() {
                 if (input.id === "padding-left") selectedElement.style.paddingLeft = input.value;
                 if (input.id === "padding-right") selectedElement.style.paddingRight = input.value;
                 if (input.id === "padding-top") selectedElement.style.paddingTop = input.value;
-
                 if (input.id === "page-break-after") selectedElement.style.pageBreakAfter = input.value;
                 if (input.id === "page-break-before") selectedElement.style.pageBreakBefore = input.value;
                 if (input.id === "page-break-inside") selectedElement.style.pageBreakInside = input.value;
@@ -1046,14 +1035,12 @@ function closeNav2() {
                 if (input.id === "place-self") selectedElement.style.placeSelf = input.value;
                 if (input.id === "pointer-events") selectedElement.style.pointerEvents = input.value;
                 if (input.id === "position") selectedElement.style.position = input.value;
-
                 if (input.id === "quotes") selectedElement.style.quotes = input.value;
                 if (input.id === "resize") selectedElement.style.resize = input.value;
                 if (input.id === "right") selectedElement.style.right = input.value;
                 if (input.id === "rotate") selectedElement.style.rotate = input.value;
                 if (input.id === "row-gap") selectedElement.style.rowGap = input.value;
                 if (input.id === "scale") selectedElement.style.scale = input.value;
-
                 if (input.id === "scroll-behavior") selectedElement.style.scrollBehavior = input.value;
                 if (input.id === "scroll-margin") selectedElement.style.scrollMargin = input.value;
                 if (input.id === "scroll-margin-block") selectedElement.style.scrollMarginBlock = input.value;
@@ -1082,8 +1069,6 @@ function closeNav2() {
                 if (input.id === "scroll-snap-type") selectedElement.style.scrollSnapType = input.value;
                 if (input.id === "scrollbar-color") selectedElement.style.scrollbarColor = input.value;
                 if (input.id === "shape-outside") selectedElement.style.shapeOutside = input.value;
-
-
                 if (input.id === "tab-size") selectedElement.style.tabSize = input.value;
                 if (input.id === "table-layout") selectedElement.style.tableLayout = input.value;
                 if (input.id === "text-align") selectedElement.style.textAlign = input.value;
@@ -1250,7 +1235,6 @@ canvas.addEventListener("click", (event) => {
         breakinside.value = computedStyle.breakInside;
         captionside.value = computedStyle.captionSide;
         caretcolor.value = computedStyle.caretColor;
-
         clear.value = computedStyle.clear;
         clip.value = computedStyle.clip;
         clippath.value = computedStyle.clipPath;
@@ -1266,12 +1250,10 @@ canvas.addEventListener("click", (event) => {
         columnspan.value = computedStyle.columnSpan;
         columnwidth.value = computedStyle.columnWidth;
         columns.value = computedStyle.columns;
-
         content.value = computedStyle.content;
         counterincrement.value = computedStyle.counterIncrement;
         counterreset.value = computedStyle.counterReset;
         counterset.value = computedStyle.counterSet;
-
         cursor.value = computedStyle.cursor;
         direction.value = computedStyle.direction;
         display.value = computedStyle.display;
@@ -1286,11 +1268,9 @@ canvas.addEventListener("click", (event) => {
         flexwrap.value = computedStyle.flexWrap;
         float.value = computedStyle.float;
         font.value = computedStyle.font;
-
         fontfamily.value = computedStyle.fontFamily;
         fontfeaturesettings.value = computedStyle.fontFeatureSettings;
         fontkerning.value = computedStyle.fontKerning;
-
         fontsize.value = computedStyle.fontSize;
         fontsizeadjust.value = computedStyle.fontSizeAdjust;
         fontstretch.value = computedStyle.fontStretch;
@@ -1319,7 +1299,6 @@ canvas.addEventListener("click", (event) => {
         hyphens.value = computedStyle.hyphens;
         hyphenatecharacter.value = computedStyle.hyphenateCharacter;
         imagerendering.value = computedStyle.imageRendering;
-
         initialletter.value = computedStyle.initialLetter;
         inlinesize.value = computedStyle.inlineSize;
         inset.value = computedStyle.inset;
@@ -1333,8 +1312,6 @@ canvas.addEventListener("click", (event) => {
         justifycontent.value = computedStyle.justifyContent;
         justifyitems.value = computedStyle.justifyItems;
         justifyself.value = computedStyle.justifySelf;
-
-
         left.value = computedStyle.left;
         letterspacing.value = computedStyle.letterSpacing;
         lineheight.value = computedStyle.lineHeight;
@@ -1371,13 +1348,11 @@ canvas.addEventListener("click", (event) => {
         maxheight.value = computedStyle.maxHeight;
         maxinlinesize.value = computedStyle.maxInlineSize;
         maxwidth.value = computedStyle.maxWidth;
-
         minblocksize.value = computedStyle.minBlockSize;
         mininlinesize.value = computedStyle.minInlineSize;
         minheight.value = computedStyle.minHeight;
         minwidth.value = computedStyle.minWidth;
         mixblendmode.value = computedStyle.mixBlendMode;
-
         objectfit.value = computedStyle.objectFit;
         objectposition.value = computedStyle.objectPosition;
         offset.value = computedStyle.offset;
@@ -1415,7 +1390,6 @@ canvas.addEventListener("click", (event) => {
         paddingleft.value = computedStyle.paddingLeft;
         paddingright.value = computedStyle.paddingRight;
         paddingtop.value = computedStyle.paddingTop;
-
         pagebreakafter.value = computedStyle.pageBreakAfter;
         pagebreakbefore.value = computedStyle.pageBreakBefore;
         pagebreakinside.value = computedStyle.pageBreakInside;
@@ -1427,14 +1401,12 @@ canvas.addEventListener("click", (event) => {
         placeself.value = computedStyle.placeSelf;
         pointerevents.value = computedStyle.pointerEvents;
         position.value = computedStyle.position;
-
         quotes.value = computedStyle.quotes;
         resize.value = computedStyle.resize;
         right.value = computedStyle.right;
         rotate.value = computedStyle.rotate;
         rowgap.value = computedStyle.rowGap;
         scale.value = computedStyle.scale;
-
         scrollbehavior.value = computedStyle.scrollBehavior;
         scrollmargin.value = computedStyle.scrollMargin;
         scrollmarginblock.value = computedStyle.scrollMarginBlock;
@@ -1463,8 +1435,6 @@ canvas.addEventListener("click", (event) => {
         scrollsnaptype.value = computedStyle.scrollSnapType;
         scrollbarcolor.value = computedStyle.scrollbarColor;
         shapeoutside.value = computedStyle.shapeOutside;
-
-
         tabsize.value = computedStyle.tabSize;
         tablelayout.value = computedStyle.tableLayout;
         textalign.value = computedStyle.textAlign;
@@ -1513,14 +1483,36 @@ canvas.addEventListener("click", (event) => {
     }
 });
 //function untuk perubahan rgb ke hexa
-function rgbToHex(r, g, b) {
-    return "#" + [r, g, b].map(x => {
-        const hex = x.toString(16);
-        return hex.length === 1 ? "0" + hex : hex;
-    }).join("");
+// function rgbToHex(r, g, b) {
+//     return "#" + [r, g, b].map(x => {
+//         const hex = x.toString(16);
+//         return hex.length === 1 ? "0" + hex : hex;
+//     }).join("");
+// }
+
+
+function search() {
+    // Deklarasi variabel
+    var input, filter, ul, li, label, i;
+    input = document.getElementById("mySearch"); // Ambil elemen input pencarian
+    filter = input.value.toUpperCase(); // Ambil teks pencarian dan ubah ke huruf besar
+    ul = document.getElementById("myMenu"); // Ambil elemen <ul>
+    li = ul.getElementsByTagName("li"); // Dapatkan semua elemen <li>
+
+    // Iterasi melalui semua elemen <li>
+    for (i = 0; i < li.length; i++) {
+        // Ambil elemen <label> di dalam setiap <li>
+        label = li[i].getElementsByTagName("label")[0];
+        if (label) {
+            // Periksa apakah teks di dalam <label> cocok dengan teks pencarian
+            if (label.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = ""; // Tampilkan elemen jika cocok
+            } else {
+                li[i].style.display = "none"; // Sembunyikan elemen jika tidak cocok
+            }
+        }
+    }
 }
-
-
 
 //klo ini digunakan untuk penambahan element baru 
 div.addEventListener("click", () => {
@@ -1911,6 +1903,7 @@ function normalImg(x) {
 }
 
 document.getElementById("exportButton").addEventListener("click", exportProject);
+
 function exportProject() {
     const canvas = document.getElementById("canvas");
 
@@ -1918,357 +1911,370 @@ function exportProject() {
     const elements = canvas.children;
     let htmlContent = ""; // Untuk menyimpan HTML
     let cssContent = ""; // Untuk menyimpan CSS
+
     if (elements.length === 0) {
         alert("Tidak ada elemen di dalam kanvas!");
         return;
     }
 
+    // Default CSS properti untuk perbandingan
+    const defaultStyles = document.createElement("div");
+    document.body.appendChild(defaultStyles); // Tambahkan elemen sementara ke body untuk mengambil default styles
+    const defaultComputedStyles = window.getComputedStyle(defaultStyles);
     Array.from(elements).forEach((element, index) => {
         // Generate HTML
         const elementTag = element.tagName.toLowerCase();
         htmlContent += `<${elementTag} class="class-${index}">${element.innerHTML}</${elementTag}>\n`;
 
-        // Generate CSS
+        // Generate CSS with custom styles
         const styles = window.getComputedStyle(element);
-        //dibagian sini harus ditambahkan apa apa saja yang mau didownload untuk bagian css-nya
-        let cssString = `
-.class-${index} {
-    accent-color:  ${style.accentColor}
-    align-content: ${style.alignContent};
-    align-items: ${style.alignItems};
-    align-self: ${style.alignSelf};
-    all: ${style.all};
-    animation: ${style.animation};
-    animation-delay: ${style.animationDelay};
-    animation-direction: ${style.animationDirection};
-    animation-duration: ${style.animationDuration};
-    animation-fill-mode: ${style.animationFillMode};
-    animation-iteration-count: ${style.animationIterationCount};
-    animation-name: ${style.animationName};
-    animation-play-state: ${style.animationPlayState};
-    animation-timing-function: ${style.animationTimingFunction};
-    aspect-ratio: ${style.aspectRatio};
-    backdrop-filter: ${style.backdropFilter};
-    backface-visibility: ${style.backfaceVisibility};
-    background: ${style.background};
-    background-attachment: ${style.backgroundAttachment};
-    background-blend-mode: ${style.backgroundBlendMode};
-    background-clip: ${style.backgroundClip};
-    background-color: ${style.backgroundColor};
-    background-image: ${style.backgroundImage};
-    background-origin: ${style.backgroundOrigin};
-    background-position: ${style.backgroundPosition};
-    background-position-x: ${style.backgroundPositionX};
-    background-position-y: ${style.backgroundPositionY};
-    background-repeat: ${style.backgroundRepeat};
-    background-size: ${style.backgroundSize};
-    block-size: ${style.blockSize};
-    border: ${style.border};
-    border-block: ${style.borderBlock};
-    border-block-color: ${style.borderBlockColor};
-    border-block-end: ${style.borderBlockEnd};
-    border-block-end-color: ${style.borderBlockEndColor};
-    border-block-end-style: ${style.borderBlockEndStyle};
-    border-block-end-width: ${style.borderBlockEndWidth};
-    border-block-start: ${style.borderBlockStart};
-    border-block-start-color: ${style.borderBlockStartColor};
-    border-block-start-style: ${style.borderBlockStartStyle};
-    border-block-start-width: ${style.borderBlockStartWidth};
-    border-block-style: ${style.borderBlockStyle};
-    border-block-width: ${style.borderBlockWidth};
-    border-bottom: ${style.borderBottom};
-    border-bottom-color: ${style.borderBottomColor};
-    border-bottom-left-radius: ${style.borderBottomLeftRadius};
-    border-bottom-right-radius: ${style.borderBottomRightRadius};
-    border-bottom-style: ${style.borderBottomStyle};
-    border-bottom-width: ${style.borderBottomWidth};
-    border-collapse: ${style.borderCollapse};
-    border-color: ${style.borderColor};
-    border-end-end-radius: ${style.borderEndEndRadius};
-    border-end-start-radius: ${style.borderEndStartRadius};
-    border-image: ${style.borderImage};
-    border-image-outset: ${style.borderImageOutset};
-    border-image-repeat: ${style.borderImageRepeat};
-    border-image-slice: ${style.borderImageSlice};
-    border-image-source: ${style.borderImageSource};
-    border-image-width: ${style.borderImageWidth};
-    border-inline: ${style.borderInline};
-    border-inline-color: ${style.borderInlineColor};
-    border-inline-end: ${style.borderInlineEnd};
-    border-inline-end-color: ${style.borderInlineEndColor};
-    border-inline-end-style: ${style.borderInlineEndStyle};
-    border-inline-end-width: ${style.borderInlineEndWidth};
-    border-inline-start: ${style.borderInlineStart};
-    border-inline-start-color: ${style.borderInlineStartColor};
-    border-inline-start-style: ${style.borderInlineStartStyle};
-    border-inline-start-width: ${style.borderInlineStartWidth};
-    border-inline-style: ${style.borderInlineStyle};
-    border-inline-width: ${style.borderInlineWidth};
-    border-left: ${style.borderLeft};
-    border-left-color: ${style.borderLeftColor};
-    border-left-style: ${style.borderLeftStyle};
-    border-left-width: ${style.borderLeftWidth};
-    border-radius: ${style.borderRadius};
-    border-right: ${style.borderRight};
-    border-right-color: ${style.borderRightColor};
-    border-right-style: ${style.borderRightStyle};
-    border-right-width: ${style.borderRightWidth};
-    border-spacing: ${style.borderSpacing};
-    border-start-end-radius: ${style.borderStartEndRadius};
-    border-start-start-radius: ${style.borderStartStartRadius};
-    border-style: ${style.borderStyle};
-    border-top: ${style.borderTop};
-    border-top-color: ${style.borderTopColor};
-    border-top-left-radius: ${style.borderTopLeftRadius};
-    border-top-right-radius: ${style.borderTopRightRadius};
-    border-top-style: ${style.borderTopStyle};
-    border-top-width: ${style.borderTopWidth};
-    border-width: ${style.borderWidth};
-    bottom: ${style.bottom};
-    box-decoration-break: ${style.boxDecorationBreak};
-    box-reflect: ${style.boxReflect};
-    box-shadow: ${style.boxShadow};
-    box-sizing: ${style.boxSizing};
-    break-after: ${style.breakAfter};
-    break-before: ${style.breakBefore};
-    break-inside: ${style.breakInside};
-    caption-side: ${style.captionSide};
-    caret-color: ${style.caretColor};
-    clear: ${style.clear};
-    clip: ${style.clip};
-    clip-path: ${style.clipPath};
-    color: ${style.color};
-    color-scheme: ${style.colorScheme};
-    column-count: ${style.columnCount};
-    column-fill: ${style.columnFill};
-    column-gap: ${style.columnGap};
-    column-rule: ${style.columnRule};
-    column-rule-color: ${style.columnRuleColor};
-    column-rule-style: ${style.columnRuleStyle};
-    column-rule-width: ${style.columnRuleWidth};
-    column-span: ${style.columnSpan};
-    column-width: ${style.columnWidth};
-    columns: ${style.columns};
-    counter-increment: ${style.counterIncrement};
-    counter-reset: ${style.counterReset};
-    counter-set: ${style.counterSet};
-    direction: ${style.direction};
-    display: ${style.display};
-    empty-cells: ${style.emptyCells};
-    filter: ${style.filter};
-    flex: ${style.flex};
-    flex-basis: ${style.flexBasis};
-    flex-direction: ${style.flexDirection};
-    flex-flow: ${style.flexFlow};
-    flex-grow: ${style.flexGrow};
-    flex-shrink: ${style.flexShrink};
-    flex-wrap: ${style.flexWrap};
-    float: ${style.float};
-    font: ${style.font};    
-    font-feature-settings: ${style.fontFeatureSettings};
-    font-kerning: ${style.fontKerning};    
-    font-size-adjust: ${style.fontSizeAdjust};
-    font-stretch: ${style.fontStretch};
-    font-style: ${style.fontStyle};
-    font-variant: ${style.fontVariant};
-    font-variant-caps: ${style.fontVariantCaps};
-    font-weight: ${style.fontWeight};
-    gap: ${style.gap};
-    grid: ${style.grid};
-    grid-area: ${style.gridArea};
-    grid-auto-columns: ${style.gridAutoColumns};
-    grid-auto-flow: ${style.gridAutoFlow};
-    grid-auto-rows: ${style.gridAutoRows};
-    grid-column: ${style.gridColumn};
-    grid-column-end: ${style.gridColumnEnd};
-    grid-column-start: ${style.gridColumnStart};
-    grid-row: ${style.gridRow};
-    grid-row-end: ${style.gridRowEnd};
-    grid-row-start: ${style.gridRowStart};
-    grid-template: ${style.gridTemplate};
-    grid-template-areas: ${style.gridTemplateAreas};
-    grid-template-columns: ${style.gridTemplateColumns};
-    grid-template-rows: ${style.gridTemplateRows};
-    hanging-punctuation: ${style.hangingPunctuation};
-    height: ${style.height};
-    hyphens: ${style.hyphens};
-    hyphenate-character: ${style.hyphenateCharacter};
-    image-rendering: ${style.imageRendering};
-    inline-size: ${style.inlineSize};
-    inset: ${style.inset};
-    inset-block: ${style.insetBlock};
-    inset-block-end: ${style.insetBlockEnd};
-    inset-block-start: ${style.insetBlockStart};
-    inset-inline: ${style.insetInline};
-    inset-inline-end: ${style.insetInlineEnd};
-    inset-inline-start: ${style.insetInlineStart};
-    isolation: ${style.isolation};
-    justify-content: ${style.justifyContent};
-    justify-items: ${style.justifyItems};
-    justify-self: ${style.justifySelf};
-    left: ${style.left};
-    letter-spacing: ${style.letterSpacing};
-    line-height: ${style.lineHeight};
-    list-style: ${style.listStyle};
-    list-style-image: ${style.listStyleImage};
-    list-style-position: ${style.listStylePosition};
-    list-style-type: ${style.listStyleType};
-    margin: ${style.margin};
-    margin-block: ${style.marginBlock};
-    margin-block-end: ${style.marginBlockEnd};
-    margin-block-start: ${style.marginBlockStart};
-    margin-bottom: ${style.marginBottom};
-    margin-inline: ${style.marginInline};
-    margin-inline-end: ${style.marginInlineEnd};
-    margin-inline-start: ${style.marginInlineStart};
-    margin-left: ${style.marginLeft};
-    margin-right: ${style.marginRight};
-    margin-top: ${style.marginTop};
-    marker: ${style.marker};
-    marker-end: ${style.markerEnd};
-    marker-mid: ${style.markerMid};
-    marker-start: ${style.markerStart};
-    mask: ${style.mask};
-    mask-clip: ${style.maskClip};
-    mask-composite: ${style.maskComposite};
-    mask-image: ${style.maskImage};
-    mask-mode: ${style.maskMode};
-    mask-origin: ${style.maskOrigin};
-    mask-position: ${style.maskPosition};
-    mask-repeat: ${style.maskRepeat};
-    mask-size: ${style.maskSize};
-    mask-type: ${style.maskType};
-    max-block-size: ${style.maxBlockSize};
-    max-height: ${style.maxHeight};
-    max-inline-size: ${style.maxInlineSize};
-    max-width: ${style.maxWidth};
-    min-inline-size: ${style.minInlineSize};
-    min-height: ${style.minHeight};
-    min-width: ${style.minWidth};
-    mix-blend-mode: ${style.mixBlendMode};
-    object-position: ${style.objectPosition};
-    offset: ${style.offset};
-    offset-anchor: ${style.offsetAnchor};
-    offset-distance: ${style.offsetDistance};
-    offset-path: ${style.offsetPath};
-    offset-position: ${style.offsetPosition};
-    offset-rotate: ${style.offsetRotate};
-    opacity: ${style.opacity};
-    order: ${style.order};
-    orphans: ${style.orphans};
-    outline: ${style.outline};
-    outline-color: ${style.outlineColor};
-    outline-offset: ${style.outlineOffset};
-    outline-style: ${style.outlineStyle};
-    outline-width: ${style.outlineWidth};
-    overflow: ${style.overflow};
-    overflow-anchor: ${style.overflowAnchor};
-    overflow-wrap: ${style.overflowWrap};
-    overflow-x: ${style.overflowX};
-    overflow-y: ${style.overflowY};
-    overscroll-behavior: ${style.overscrollBehavior};
-    overscroll-behavior-block: ${style.overscrollBehaviorBlock};
-    overscroll-behavior-inline: ${style.overscrollBehaviorInline};
-    overscroll-behavior-x: ${style.overscrollBehaviorX};
-    overscroll-behavior-y: ${style.overscrollBehaviorY};
-    padding: ${style.padding};
-    padding-block: ${style.paddingBlock};
-    padding-block-end: ${style.paddingBlockEnd};
-    padding-block-start: ${style.paddingBlockStart};
-    padding-bottom: ${style.paddingBottom};
-    padding-inline: ${style.paddingInline};
-    padding-inline-end: ${style.paddingInlineEnd};
-    padding-inline-start: ${style.paddingInlineStart};
-    padding-left: ${style.paddingLeft};
-    padding-right: ${style.paddingRight};
-    padding-top: ${style.paddingTop};    
-    page-break-before: ${style.pageBreakBefore};
-    page-break-inside: ${style.pageBreakInside};
-    paint-order: ${style.paintOrder};
-    perspective: ${style.perspective};
-    perspective-origin: ${style.perspectiveOrigin};
-    place-content: ${style.placeContent};
-    place-items: ${style.placeItems};
-    place-self: ${style.placeSelf};
-    pointer-events: ${style.pointerEvents};
-    position: ${style.position};
-    resize: ${style.resize};
-    right: ${style.right};
-    rotate: ${style.rotate};
-    row-gap: ${style.rowGap};
-    scale: ${style.scale};    
-    scroll-margin: ${style.scrollMargin};
-    scroll-margin-block: ${style.scrollMarginBlock};
-    scroll-margin-block-end: ${style.scrollMarginBlockEnd};
-    scroll-margin-block-start: ${style.scrollMarginBlockStart};
-    scroll-margin-bottom: ${style.scrollMarginBottom};
-    scroll-margin-inline: ${style.scrollMarginInline};
-    scroll-margin-inline-end: ${style.scrollMarginInlineEnd};
-    scroll-margin-inline-start: ${style.scrollMarginInlineStart};
-    scroll-margin-left: ${style.scrollMarginLeft};
-    scroll-margin-right: ${style.scrollMarginRight};
-    scroll-margin-top: ${style.scrollMarginTop};
-    scroll-padding: ${style.scrollPadding};
-    scroll-padding-block: ${style.scrollPaddingBlock};
-    scroll-padding-block-end: ${style.scrollPaddingBlockEnd};
-    scroll-padding-block-start: ${style.scrollPaddingBlockStart};
-    scroll-padding-bottom: ${style.scrollPaddingBottom};
-    scroll-padding-inline: ${style.scrollPaddingInline};
-    scroll-padding-inline-end: ${style.scrollPaddingInlineEnd};
-    scroll-padding-inline-start: ${style.scrollPaddingInlineStart};
-    scroll-padding-left: ${style.scrollPaddingLeft};
-    scroll-padding-right: ${style.scrollPaddingRight};
-    scroll-padding-top: ${style.scrollPaddingTop};
-    scroll-snap-align: ${style.scrollSnapAlign};
-    scroll-snap-stop: ${style.scrollSnapStop};
-    scroll-snap-type: ${style.scrollSnapType};
-    scrollbar-color: ${style.scrollbarColor};
-    shape-outside: ${style.shapeOutside};    
-    table-layout: ${style.tableLayout};
-    text-align: ${style.textAlign};
-    text-align-last: ${style.textAlignLast};
-    text-decoration: ${style.textDecoration};
-    text-decoration-color: ${style.textDecorationColor};
-    text-decoration-line: ${style.textDecorationLine};
-    text-decoration-style: ${style.textDecorationStyle};
-    text-decoration-thickness: ${style.textDecorationThickness};
-    text-emphasis: ${style.textEmphasis};
-    text-emphasis-color: ${style.textEmphasisColor};
-    text-emphasis-position: ${style.textEmphasisPosition};
-    text-emphasis-style: ${style.textEmphasisStyle};
-    text-indent: ${style.textIndent};
-    text-justify: ${style.textJustify};
-    text-orientation: ${style.textOrientation};
-    text-overflow: ${style.textOverflow};
-    text-shadow: ${style.textShadow};
-    text-transform: ${style.textTransform};
-    text-underline-offset: ${style.textUnderlineOffset};
-    text-underline-position: ${style.textUnderlinePosition};
-    top: ${style.top};
-    transform: ${style.transform};
-    transform-origin: ${style.transformOrigin};
-    transform-style: ${style.transformStyle};
-    transition: ${style.transition};
-    transition-delay: ${style.transitionDelay};
-    transition-duration: ${style.transitionDuration};
-    transition-property: ${style.transitionProperty};
-    transition-timing-function:  ${style.transitionTimingFunction};
-    translate: ${style.translate};
-    unicode-bidi: ${style.unicodeBidi};
-    user-select: ${style.userSelect};
-    vertical-align: ${style.verticalAlign};
-    visibility: ${style.visibility};
-    white-space: ${style.whiteSpace};
-    widows: ${style.widows};
-    width: ${style.width};
-    word -break: ${style.wordBreak};
-    word-spacing: ${style.wordSpacing};
-    word-wrap: ${style.wordWrap};
-    writing-mode: ${style.writingMode};
-    z-index: ${style.zIndex};
-    zoom: ${style.zoom};
-} `;
-        cssContent += cssString + "\n";
+        let cssString = `.class-${index} {\n`;
+
+        for (let i = 0; i < styles.length; i++) {
+            const styleName = styles[i]; // Get property name
+            const styleValue = styles.getPropertyValue(styleName); // Get property value
+            const defaultValue = defaultComputedStyles.getPropertyValue(styleName); // Get default value
+
+            if (styleValue !== defaultValue && styleValue !== "") {
+                cssString += `    ${styleName}: ${styleValue};\n`;
+            }
+        }
+        cssString += `accent - color:  ${styles.getPropertyValue("accentColor")};`;
+        cssString += `align - content: ${styles.getPropertyValue("alignContent")};`;
+        cssString += `align - items: ${styles.getPropertyValue("alignItems")};`;
+        cssString += `align - self: ${styles.getPropertyValue("alignSelf")};`;
+        cssString += `all: ${styles.getPropertyValue("all")};`;
+        cssString += `animation: ${styles.getPropertyValue("animation")};`;
+        cssString += `animation - delay: ${styles.getPropertyValue("animationDelay")};`;
+        cssString += `animation - direction: ${styles.getPropertyValue("animationDirection")};`;
+        cssString += `animation - duration: ${styles.getPropertyValue("animationDuration")};`;
+        cssString += `animation - fill - mode: ${styles.getPropertyValue("animationFillMode")};`;
+        cssString += `animation - iteration - count: ${styles.getPropertyValue("animationIterationCount")};`;
+        cssString += `animation - name: ${styles.getPropertyValue("animationName")};`;
+        cssString += `animation - play - state: ${styles.getPropertyValue("animationPlayState")};`;
+        cssString += `animation - timing - function: $ { styles.getPropertyValue("animationTimingFunction") };`;
+        cssString += `aspect - ratio: ${styles.getPropertyValue("aspectRatio")};`;
+        cssString += `backdrop - filter: ${styles.getPropertyValue("backdropFilter")};`;
+        cssString += `backface - visibility: ${styles.getPropertyValue("backfaceVisibility")};`;
+        cssString += `background: ${styles.getPropertyValue("background")};`;
+        cssString += `background - attachment: ${styles.getPropertyValue("backgroundAttachment")};`;
+        cssString += `background - blend - mode: ${styles.getPropertyValue("backgroundBlendMode")};`;
+        cssString += `background - clip: ${styles.getPropertyValue("backgroundClip")};`;
+        cssString += `background - color: ${styles.getPropertyValue("backgroundColor")};`;
+        cssString += `background - image: ${styles.getPropertyValue("backgroundImage")};`;
+        cssString += `background - origin: ${styles.getPropertyValue("backgroundOrigin")};`;
+        cssString += `background - position: ${styles.getPropertyValue("backgroundPosition")};`;
+        cssString += `background - position - x: ${styles.getPropertyValue("backgroundPositionX")};`;
+        cssString += `background - position - y: ${styles.getPropertyValue("backgroundPositionY")};`;
+        cssString += `background - repeat: ${styles.getPropertyValue("backgroundRepeat")};`;
+        cssString += `background - size: ${styles.getPropertyValue("backgroundSize")};`;
+        cssString += `block - size: ${styles.getPropertyValue("blockSize")};`;
+        cssString += `border: ${styles.getPropertyValue("border")};`;
+        cssString += `border - block: ${styles.getPropertyValue("borderBlock")};`;
+        cssString += `border - block - color: ${styles.getPropertyValue("borderBlockColor")};`;
+        cssString += `border - block - end: ${styles.getPropertyValue("borderBlockEnd")};`;
+        cssString += `border - block - end - color: ${styles.getPropertyValue("borderBlockEndColor")};`;
+        cssString += `border - block - end - style: ${styles.getPropertyValue("borderBlockEndStyle")};`;
+        cssString += `border - block - end - width: ${styles.getPropertyValue("borderBlockEndWidth")};`;
+        cssString += `border - block - start: ${styles.getPropertyValue("borderBlockStart")};`;
+        cssString += `border - block - start - color: ${styles.getPropertyValue("borderBlockStartColor")};`;
+        cssString += `border - block - start - style: ${styles.getPropertyValue("borderBlockStartStyle")};`;
+        cssString += `border - block - start - width: ${styles.getPropertyValue("borderBlockStartWidth")};`;
+        cssString += `border - block - style: ${styles.getPropertyValue("borderBlockStyle")};`;
+        cssString += `border - block - width: ${styles.getPropertyValue("borderBlockWidth")};`;
+        cssString += `border - bottom: ${styles.getPropertyValue("borderBottom")};`;
+        cssString += `border - bottom - color: ${styles.getPropertyValue("borderBottomColor")};`;
+        cssString += `border - bottom - left - radius: ${styles.getPropertyValue("borderBottomLeftRadius")};`;
+        cssString += `border - bottom - right - radius: ${styles.getPropertyValue("borderBottomRightRadius")};`;
+        cssString += `border - bottom - style: ${styles.getPropertyValue("borderBottomStyle")};`;
+        cssString += `border - bottom - width: ${styles.getPropertyValue("borderBottomWidth")};`;
+        cssString += `border - collapse: ${styles.getPropertyValue("borderCollapse")};`;
+        cssString += `border - color: ${styles.getPropertyValue("borderColor")};`;
+        cssString += `border - end - end - radius: ${styles.getPropertyValue("borderEndEndRadius")};`;
+        cssString += `border - end - start - radius: ${styles.getPropertyValue("borderEndStartRadius")};`;
+        cssString += `border - image: ${styles.getPropertyValue("borderImage")};`;
+        cssString += `border - image - outset: ${styles.getPropertyValue("borderImageOutset")};`;
+        cssString += `border - image - repeat: ${styles.getPropertyValue("borderImageRepeat")};`;
+        cssString += `border - image - slice: ${styles.getPropertyValue("borderImageSlice")};`;
+        cssString += `border - image - source: ${styles.getPropertyValue("borderImageSource")};`;
+        cssString += `border - image - width: ${styles.getPropertyValue("borderImageWidth")};`;
+        cssString += `border - inline: ${styles.getPropertyValue("borderInline")};`;
+        cssString += `border - inline - color: ${styles.getPropertyValue("borderInlineColor")};`;
+        cssString += `border - inline - end: ${styles.getPropertyValue("borderInlineEnd")};`;
+        cssString += `border - inline - end - color: ${styles.getPropertyValue("borderInlineEndColor")};`;
+        cssString += `border - inline - end - style: ${styles.getPropertyValue("borderInlineEndStyle")};`;
+        cssString += `border - inline - end - width: ${styles.getPropertyValue("borderInlineEndWidth")};`;
+        cssString += `border - inline - start: ${styles.getPropertyValue("borderInlineStart")};`;
+        cssString += `border - inline - start - color: ${styles.getPropertyValue("borderInlineStartColor")};`;
+        cssString += `border - inline - start - style: ${styles.getPropertyValue("borderInlineStartStyle")};`;
+        cssString += `border - inline - start - width: ${styles.getPropertyValue("borderInlineStartWidth")};`;
+        cssString += `border - inline - style: ${styles.getPropertyValue("borderInlineStyle")};`;
+        cssString += `border - inline - width: ${styles.getPropertyValue("borderInlineWidth")};`;
+        cssString += `border - left: ${styles.getPropertyValue("borderLeft")};`;
+        cssString += `border - left - color: ${styles.getPropertyValue("borderLeftColor")};`;
+        cssString += `border - left - style: ${styles.getPropertyValue("borderLeftStyle")};`;
+        cssString += `border - left - width: ${styles.getPropertyValue("borderLeftWidth")};`;
+        cssString += `border - radius: ${styles.getPropertyValue("borderRadius")};`;
+        cssString += `border - right: ${styles.getPropertyValue("borderRight")};`;
+        cssString += `border - right - color: ${styles.getPropertyValue("borderRightColor")};`;
+        cssString += `border - right - style: ${styles.getPropertyValue("borderRightStyle")};`;
+        cssString += `border - right - width: ${styles.getPropertyValue("borderRightWidth")};`;
+        cssString += `border - spacing: ${styles.getPropertyValue("borderSpacing")};`;
+        cssString += `border - start - end - radius: ${styles.getPropertyValue("borderStartEndRadius")};`;
+        cssString += `border - start - start - radius: ${styles.getPropertyValue("borderStartStartRadius")};`;
+        cssString += `border - style: ${styles.getPropertyValue("borderStyle")};`;
+        cssString += `border - top: ${styles.getPropertyValue("borderTop")};`;
+        cssString += `border - top - color: ${styles.getPropertyValue("borderTopColor")};`;
+        cssString += `border - top - left - radius: ${styles.getPropertyValue("borderTopLeftRadius")};`;
+        cssString += `border - top - right - radius: ${styles.getPropertyValue("borderTopRightRadius")};`;
+        cssString += `border - top - style: ${styles.getPropertyValue("borderTopStyle")};`;
+        cssString += `border - top - width: ${styles.getPropertyValue("borderTopWidth")};`;
+        cssString += `border - width: ${styles.getPropertyValue("borderWidth")};`;
+        cssString += `bottom: ${styles.getPropertyValue("bottom")};`;
+        cssString += `box - decoration -break: ${styles.getPropertyValue("boxDecorationBreak")};`;
+        cssString += `box - reflect: ${styles.getPropertyValue("boxReflect")};`;
+        cssString += `box - shadow: ${styles.getPropertyValue("boxShadow")};`;
+        cssString += `box - sizing: ${styles.getPropertyValue("boxSizing")};`;
+        cssString += `break-after: ${styles.getPropertyValue("breakAfter")};`;
+        cssString += `break-before: ${styles.getPropertyValue("breakBefore")};`;
+        cssString += `break-inside: ${styles.getPropertyValue("breakInside")};`;
+        cssString += `caption - side: ${styles.getPropertyValue("captionSide")};`;
+        cssString += `caret - color: ${styles.getPropertyValue("caretColor")};`;
+        cssString += `clear: ${styles.getPropertyValue("clear")};`;
+        cssString += `clip: ${styles.getPropertyValue("clip")};`;
+        cssString += `clip - path: ${styles.getPropertyValue("clipPath")};`;
+        cssString += `color: ${styles.getPropertyValue("color")};`;
+        cssString += `color - scheme: ${styles.getPropertyValue("colorScheme")};`;
+        cssString += `column - count: ${styles.getPropertyValue("columnCount")};`;
+        cssString += `column - fill: ${styles.getPropertyValue("columnFill")};`;
+        cssString += `column - gap: ${styles.getPropertyValue("columnGap")};`;
+        cssString += `column - rule: ${styles.getPropertyValue("columnRule")};`;
+        cssString += `column - rule - color: ${styles.getPropertyValue("columnRuleColor")};`;
+        cssString += `column - rule - style: ${styles.getPropertyValue("columnRuleStyle")};`;
+        cssString += `column - rule - width: ${styles.getPropertyValue("columnRuleWidth")};`;
+        cssString += `column - span: ${styles.getPropertyValue("columnSpan")};`;
+        cssString += `column - width: ${styles.getPropertyValue("columnWidth")};`;
+        cssString += `columns: ${styles.getPropertyValue("columns")};`;
+        cssString += `counter - increment: ${styles.getPropertyValue("counterIncrement")};`;
+        cssString += `counter - reset: ${styles.getPropertyValue("counterReset")};`;
+        cssString += `counter - set: ${styles.getPropertyValue("counterSet")};`;
+        cssString += `direction: ${styles.getPropertyValue("direction")};`;
+        cssString += `display: ${styles.getPropertyValue("display")};`;
+        cssString += `empty - cells: ${styles.getPropertyValue("emptyCells")};`;
+        cssString += `filter: ${styles.getPropertyValue("filter")};`;
+        cssString += `flex: ${styles.getPropertyValue("flex")};`;
+        cssString += `flex - basis: ${styles.getPropertyValue("flexBasis")};`;
+        cssString += `flex - direction: ${styles.getPropertyValue("flexDirection")};`;
+        cssString += `flex - flow: ${styles.getPropertyValue("flexFlow")};`;
+        cssString += `flex - grow: ${styles.getPropertyValue("flexGrow")};`;
+        cssString += `flex - shrink: ${styles.getPropertyValue("flexShrink")};`;
+        cssString += `flex - wrap: ${styles.getPropertyValue("flexWrap")};`;
+        cssString += `float: ${styles.getPropertyValue("float")};`;
+        cssString += `font: ${styles.getPropertyValue("font")};`;
+        cssString += `font - feature - settings: ${styles.getPropertyValue("fontFeatureSettings")};`;
+        cssString += `font - kerning: ${styles.getPropertyValue("fontKerning  ")};`;
+        cssString += `font - size - adjust: ${styles.getPropertyValue("fontSizeAdjust")};`;
+        cssString += `font - stretch: ${styles.getPropertyValue("fontStretch")};`;
+        cssString += `font - style: ${styles.getPropertyValue("fontStyle")};`;
+        cssString += `font - variant: ${styles.getPropertyValue("fontVariant")};`;
+        cssString += `font - variant - caps: ${styles.getPropertyValue("fontVariantCaps")};`;
+        cssString += `font - weight: ${styles.getPropertyValue("fontWeight")};`;
+        cssString += `gap: ${styles.getPropertyValue("gap")};`;
+        cssString += `grid: ${styles.getPropertyValue("grid")};`;
+        cssString += `grid - area: ${styles.getPropertyValue("gridArea")};`;
+        cssString += `grid - auto - columns: ${styles.getPropertyValue("gridAutoColumns")};`;
+        cssString += `grid - auto - flow: ${styles.getPropertyValue("gridAutoFlow")};`;
+        cssString += `grid - auto - rows: ${styles.getPropertyValue("gridAutoRows")};`;
+        cssString += `grid - column: ${styles.getPropertyValue("gridColumn")};`;
+        cssString += `grid - column - end: ${styles.getPropertyValue("gridColumnEnd")};`;
+        cssString += `grid - column - start: ${styles.getPropertyValue("gridColumnStart")};`;
+        cssString += `grid - row: ${styles.getPropertyValue("gridRow")};`;
+        cssString += `grid - row - end: ${styles.getPropertyValue("gridRowEnd")};`;
+        cssString += `grid - row - start: ${styles.getPropertyValue("gridRowStart")};`;
+        cssString += `grid - template: ${styles.getPropertyValue("gridTemplate")};`;
+        cssString += `grid - template - areas: ${styles.getPropertyValue("gridTemplateAreas")};`;
+        cssString += `grid - template - columns: ${styles.getPropertyValue("gridTemplateColumns")};`;
+        cssString += `grid - template - rows: ${styles.getPropertyValue("gridTemplateRows")};`;
+        cssString += `hanging - punctuation: ${styles.getPropertyValue("hangingPunctuation")};`;
+        cssString += `height: ${styles.getPropertyValue("height")};`;
+        cssString += `hyphens: ${styles.getPropertyValue("hyphens")};`;
+        cssString += `hyphenate - character: ${styles.getPropertyValue("hyphenateCharacter")};`;
+        cssString += `image - rendering: ${styles.getPropertyValue("imageRendering")};`;
+        cssString += `inline - size: ${styles.getPropertyValue("inlineSize")};`;
+        cssString += `inset: ${styles.getPropertyValue("inset")};`;
+        cssString += `inset - block: ${styles.getPropertyValue("insetBlock")};`;
+        cssString += `inset - block - end: ${styles.getPropertyValue("insetBlockEnd")};`;
+        cssString += `inset - block - start: ${styles.getPropertyValue("insetBlockStart")};`;
+        cssString += `inset - inline: ${styles.getPropertyValue("insetInline")};`;
+        cssString += `inset - inline - end: ${styles.getPropertyValue("insetInlineEnd")};`;
+        cssString += `inset - inline - start: ${styles.getPropertyValue("insetInlineStart")};`;
+        cssString += `isolation: ${styles.getPropertyValue("isolation")};`;
+        cssString += `justify - content: ${styles.getPropertyValue("justifyContent")};`;
+        cssString += `justify - items: ${styles.getPropertyValue("justifyItems")};`;
+        cssString += `justify - self: ${styles.getPropertyValue("justifySelf")};`;
+        cssString += `left: ${styles.getPropertyValue("left")};`;
+        cssString += `letter - spacing: ${styles.getPropertyValue("letterSpacing")};`;
+        cssString += `line - height: ${styles.getPropertyValue("lineHeight")};`;
+        cssString += `list - style: ${styles.getPropertyValue("listStyle")};`;
+        cssString += `list - style - image: ${styles.getPropertyValue("listStyleImage")};`;
+        cssString += `list - style - position: ${styles.getPropertyValue("listStylePosition")};`;
+        cssString += `list - style - type: ${styles.getPropertyValue("listStyleType")};`;
+        cssString += `margin: ${styles.getPropertyValue("margin")};`;
+        cssString += `margin - block: ${styles.getPropertyValue("marginBlock")};`;
+        cssString += `margin - block - end: ${styles.getPropertyValue("marginBlockEnd")};`;
+        cssString += `margin - block - start: ${styles.getPropertyValue("marginBlockStart")};`;
+        cssString += `margin - bottom: ${styles.getPropertyValue("marginBottom")};`;
+        cssString += `margin - inline: ${styles.getPropertyValue("marginInline")};`;
+        cssString += `margin - inline - end: ${styles.getPropertyValue("marginInlineEnd")};`;
+        cssString += `margin - inline - start: ${styles.getPropertyValue("marginInlineStart")};`;
+        cssString += `margin - left: ${styles.getPropertyValue("marginLeft")};`;
+        cssString += `margin - right: ${styles.getPropertyValue("marginRight")};`;
+        cssString += `margin - top: ${styles.getPropertyValue("marginTop")};`;
+        cssString += `marker: ${styles.getPropertyValue("marker")};`;
+        cssString += `marker - end: ${styles.getPropertyValue("markerEnd")};`;
+        cssString += `marker - mid: ${styles.getPropertyValue("markerMid")};`;
+        cssString += `marker - start: ${styles.getPropertyValue("markerStart")};`;
+        cssString += `mask: ${styles.getPropertyValue("mask")};`;
+        cssString += `mask - clip: ${styles.getPropertyValue("maskClip")};`;
+        cssString += `mask - composite: ${styles.getPropertyValue("maskComposite")};`;
+        cssString += `mask - image: ${styles.getPropertyValue("maskImage")};`;
+        cssString += `mask - mode: ${styles.getPropertyValue("maskMode")};`;
+        cssString += `mask - origin: ${styles.getPropertyValue("maskOrigin")};`;
+        cssString += `mask - position: ${styles.getPropertyValue("maskPosition")};`;
+        cssString += `mask - repeat: ${styles.getPropertyValue("maskRepeat")};`;
+        cssString += `mask - size: ${styles.getPropertyValue("maskSize")};`;
+        cssString += `mask - type: ${styles.getPropertyValue("maskType")};`;
+        cssString += `max - block - size: ${styles.getPropertyValue("maxBlockSize")};`;
+        cssString += `max - height: ${styles.getPropertyValue("maxHeight")};`;
+        cssString += `max - inline - size: ${styles.getPropertyValue("maxInlineSize")};`;
+        cssString += `max - width: ${styles.getPropertyValue("maxWidth")};`;
+        cssString += `min - inline - size: ${styles.getPropertyValue("minInlineSize")};`;
+        cssString += `min - height: ${styles.getPropertyValue("minHeight")};`;
+        cssString += `min - width: ${styles.getPropertyValue("minWidth")};`;
+        cssString += `mix - blend - mode: ${styles.getPropertyValue("mixBlendMode")};`;
+        cssString += `object - position: ${styles.getPropertyValue("objectPosition")};`;
+        cssString += `offset: ${styles.getPropertyValue("offset")};`;
+        cssString += `offset - anchor: ${styles.getPropertyValue("offsetAnchor")};`;
+        cssString += `offset - distance: ${styles.getPropertyValue("offsetDistance")};`;
+        cssString += `offset - path: ${styles.getPropertyValue("offsetPath")};`;
+        cssString += `offset - position: ${styles.getPropertyValue("offsetPosition")};`;
+        cssString += `offset - rotate: ${styles.getPropertyValue("offsetRotate")};`;
+        cssString += `opacity: ${styles.getPropertyValue("opacity")};`;
+        cssString += `order: ${styles.getPropertyValue("order")};`;
+        cssString += `orphans: ${styles.getPropertyValue("orphans")};`;
+        cssString += `outline: ${styles.getPropertyValue("outline")};`;
+        cssString += `outline - color: ${styles.getPropertyValue("outlineColor")};`;
+        cssString += `outline - offset: ${styles.getPropertyValue("outlineOffset")};`;
+        cssString += `outline - style: ${styles.getPropertyValue("outlineStyle")};`;
+        cssString += `outline - width: ${styles.getPropertyValue("outlineWidth")};`;
+        cssString += `overflow: ${styles.getPropertyValue("overflow")};`;
+        cssString += `overflow - anchor: ${styles.getPropertyValue("overflowAnchor")};`;
+        cssString += `overflow - wrap: ${styles.getPropertyValue("overflowWrap")};`;
+        cssString += `overflow - x: ${styles.getPropertyValue("overflowX")};`;
+        cssString += `overflow - y: ${styles.getPropertyValue("overflowY")};`;
+        cssString += `overscroll - behavior: ${styles.getPropertyValue("overscrollBehavior")};`;
+        cssString += `overscroll - behavior - block: ${styles.getPropertyValue("overscrollBehaviorBlock")};`;
+        cssString += `overscroll - behavior - inline: ${styles.getPropertyValue("overscrollBehaviorInline")};`;
+        cssString += `overscroll - behavior - x: ${styles.getPropertyValue("overscrollBehaviorX")};`;
+        cssString += `overscroll - behavior - y: ${styles.getPropertyValue("overscrollBehaviorY")};`;
+        cssString += `padding: ${styles.getPropertyValue("padding")};`;
+        cssString += `padding - block: ${styles.getPropertyValue("paddingBlock")};`;
+        cssString += `padding - block - end: ${styles.getPropertyValue("paddingBlockEnd")};`;
+        cssString += `padding - block - start: ${styles.getPropertyValue("paddingBlockStart")};`;
+        cssString += `padding - bottom: ${styles.getPropertyValue("paddingBottom")};`;
+        cssString += `padding - inline: ${styles.getPropertyValue("paddingInline")};`;
+        cssString += `padding - inline - end: ${styles.getPropertyValue("paddingInlineEnd")};`;
+        cssString += `padding - inline - start: ${styles.getPropertyValue("paddingInlineStart")};`;
+        cssString += `padding - left: ${styles.getPropertyValue("paddingLeft")};`;
+        cssString += `padding - right: ${styles.getPropertyValue("paddingRight")};`;
+        cssString += `padding - top: ${styles.getPropertyValue("paddingTop  ")};`;
+        cssString += `page -break-before: ${styles.getPropertyValue("pageBreakBefore")};`;
+        cssString += `page -break-inside: ${styles.getPropertyValue("pageBreakInside")};`;
+        cssString += `paint - order: ${styles.getPropertyValue("paintOrder")};`;
+        cssString += `perspective: ${styles.getPropertyValue("perspective")};`;
+        cssString += `perspective - origin: ${styles.getPropertyValue("perspectiveOrigin")};`;
+        cssString += `place - content: ${styles.getPropertyValue("placeContent")};`;
+        cssString += `place - items: ${styles.getPropertyValue("placeItems")};`;
+        cssString += `place - self: ${styles.getPropertyValue("placeSelf")};`;
+        cssString += `pointer - events: ${styles.getPropertyValue("pointerEvents")};`;
+        cssString += `position: ${styles.getPropertyValue("position")};`;
+        cssString += `resize: ${styles.getPropertyValue("resize")};`;
+        cssString += `right: ${styles.getPropertyValue("right")};`;
+        cssString += `rotate: ${styles.getPropertyValue("rotate")};`;
+        cssString += `row - gap: ${styles.getPropertyValue("rowGap")};`;
+        cssString += `scale: ${styles.getPropertyValue("scale")};`;
+        cssString += `scroll - margin: ${styles.getPropertyValue("scrollMargin")};`;
+        cssString += `scroll - margin - block: ${styles.getPropertyValue("scrollMarginBlock")};`;
+        cssString += `scroll - margin - block - end: ${styles.getPropertyValue("scrollMarginBlockEnd")};`;
+        cssString += `scroll - margin - block - start: ${styles.getPropertyValue("scrollMarginBlockStart")};`;
+        cssString += `scroll - margin - bottom: ${styles.getPropertyValue("scrollMarginBottom")};`;
+        cssString += `scroll - margin - inline: ${styles.getPropertyValue("scrollMarginInline")};`;
+        cssString += `scroll - margin - inline - end: ${styles.getPropertyValue("scrollMarginInlineEnd")};`;
+        cssString += `scroll - margin - inline - start: ${styles.getPropertyValue("scrollMarginInlineStart")};`;
+        cssString += `scroll - margin - left: ${styles.getPropertyValue("scrollMarginLeft")};`;
+        cssString += `scroll - margin - right: ${styles.getPropertyValue("scrollMarginRight")};`;
+        cssString += `scroll - margin - top: ${styles.getPropertyValue("scrollMarginTop")};`;
+        cssString += `scroll - padding: ${styles.getPropertyValue("scrollPadding")};`;
+        cssString += `scroll - padding - block: ${styles.getPropertyValue("scrollPaddingBlock")};`;
+        cssString += `scroll - padding - block - end: ${styles.getPropertyValue("scrollPaddingBlockEnd")};`;
+        cssString += `scroll - padding - block - start: ${styles.getPropertyValue("scrollPaddingBlockStart")};`;
+        cssString += `scroll - padding - bottom: ${styles.getPropertyValue("scrollPaddingBottom")};`;
+        cssString += `scroll - padding - inline: ${styles.getPropertyValue("scrollPaddingInline")};`;
+        cssString += `scroll - padding - inline - end: ${styles.getPropertyValue("scrollPaddingInlineEnd")};`;
+        cssString += `scroll - padding - inline - start: ${styles.getPropertyValue("scrollPaddingInlineStart")};`;
+        cssString += `scroll - padding - left: ${styles.getPropertyValue("scrollPaddingLeft")};`;
+        cssString += `scroll - padding - right: ${styles.getPropertyValue("scrollPaddingRight")};`;
+        cssString += `scroll - padding - top: ${styles.getPropertyValue("scrollPaddingTop")};`;
+        cssString += `scroll - snap - align: ${styles.getPropertyValue("scrollSnapAlign")};`;
+        cssString += `scroll - snap - stop: ${styles.getPropertyValue("scrollSnapStop")};`;
+        cssString += `scroll - snap - type: ${styles.getPropertyValue("scrollSnapType")};`;
+        cssString += `scrollbar - color: ${styles.getPropertyValue("scrollbarColor")};`;
+        cssString += `shape - outside: ${styles.getPropertyValue("shapeOutside")};`;
+        cssString += `table - layout: ${styles.getPropertyValue("tableLayout")};`;
+        cssString += `text - align: ${styles.getPropertyValue("textAlign")};`;
+        cssString += `text - align - last: ${styles.getPropertyValue("textAlignLast")};`;
+        cssString += `text - decoration: ${styles.getPropertyValue("textDecoration")};`;
+        cssString += `text - decoration - color: ${styles.getPropertyValue("textDecorationColor")};`;
+        cssString += `text - decoration - line: ${styles.getPropertyValue("textDecorationLine")};`;
+        cssString += `text - decoration - style: ${styles.getPropertyValue("textDecorationStyle")};`;
+        cssString += `text - decoration - thickness: ${styles.getPropertyValue("textDecorationThickness")};`;
+        cssString += `text - emphasis: ${styles.getPropertyValue("textEmphasis")};`;
+        cssString += `text - emphasis - color: ${styles.getPropertyValue("textEmphasisColor")};`;
+        cssString += `text - emphasis - position: ${styles.getPropertyValue("textEmphasisPosition")};`;
+        cssString += `text - emphasis - style: ${styles.getPropertyValue("textEmphasisStyle")};`;
+        cssString += `text - indent: ${styles.getPropertyValue("textIndent")};`;
+        cssString += `text - justify: ${styles.getPropertyValue("textJustify")};`;
+        cssString += `text - orientation: ${styles.getPropertyValue("textOrientation")};`;
+        cssString += `text - overflow: ${styles.getPropertyValue("textOverflow")};`;
+        cssString += `text - shadow: ${styles.getPropertyValue("textShadow")};`;
+        cssString += `text - transform: ${styles.getPropertyValue("textTransform")};`;
+        cssString += `text - underline - offset: ${styles.getPropertyValue("textUnderlineOffset")};`;
+        cssString += `text - underline - position: ${styles.getPropertyValue("textUnderlinePosition")};`;
+        cssString += `top: ${styles.getPropertyValue("top")};`;
+        cssString += `transform: ${styles.getPropertyValue("transform")};`;
+        cssString += `transform - origin: ${styles.getPropertyValue("transformOrigin")};`;
+        cssString += `transform - style: ${styles.getPropertyValue("transformStyle")};`;
+        cssString += `transition: ${styles.getPropertyValue("transition")};`;
+        cssString += `transition - delay: ${styles.getPropertyValue("transitionDelay")};`;
+        cssString += `transition - duration: ${styles.getPropertyValue("transitionDuration")};`;
+        cssString += `transition - property: ${styles.getPropertyValue("transitionProperty")};`;
+        cssString += `transition - timing - function: $ { styles.getPropertyValue("transitionTimingFunction") };`;
+        cssString += `translate: ${styles.getPropertyValue("translate")};`;
+        cssString += `unicode - bidi: ${styles.getPropertyValue("unicodeBidi")};`;
+        cssString += `user - select: ${styles.getPropertyValue("userSelect")};`;
+        cssString += `vertical - align: ${styles.getPropertyValue("verticalAlign")};`;
+        cssString += `visibility: ${styles.getPropertyValue("visibility")};`;
+        cssString += `white - space: ${styles.getPropertyValue("whiteSpace")};`;
+        cssString += `widows: ${styles.getPropertyValue("widows")};`;
+        cssString += `width: ${styles.getPropertyValue("width")};`;
+        cssString += `word -break: ${styles.getPropertyValue("wordBreak")};`;
+        cssString += `word - spacing: ${styles.getPropertyValue("wordSpacing")};`;
+        cssString += `word - wrap: ${styles.getPropertyValue("wordWrap")};`;
+        cssString += `writing - mode: ${styles.getPropertyValue("writingMode")};`;
+        cssString += `z - index: ${styles.getPropertyValue("zIndex")};`;
+        cssString += `zoom: ${styles.getPropertyValue("zoom")};`;
+        cssString += `} \n`;
+        cssContent += cssString;
     });
 
     // Gabungkan HTML dan CSS dalam file
