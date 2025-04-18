@@ -399,7 +399,6 @@ function closeNav() {
 function openNav2() {
     document.getElementById("mySidenav2").style.width = "300px";
     document.getElementById("mySidenav2").style.left = "1236px";
-
 }
 function closeNav2() {
     document.getElementById("mySidenav2").style.width = "0";
@@ -1490,7 +1489,6 @@ canvas.addEventListener("click", (event) => {
 //     }).join("");
 // }
 
-
 function search() {
     // Deklarasi variabel
     var input, filter, ul, li, label, i;
@@ -1520,6 +1518,7 @@ div.addEventListener("click", () => {
     const elementType = div.getAttribute("data-element");
     const newdiv = document.createElement(elementType);
     newdiv.classList.add("editable");
+    newdiv.setAttribute("tabindex", "0");
     newdiv.style.width = "100px";
     newdiv.style.height = "50px";
     newdiv.style.backgroundColor = "#ddd";
@@ -1536,6 +1535,7 @@ h.forEach(allh => {
         const elementType = allh.getAttribute("data-element");
         const newh1 = document.createElement(elementType);
         newh1.classList.add("editable");
+        newh1.setAttribute("tabindex", "0");
         newh1.style.width = "100px";
         newh1.style.height = "50px";
         newh1.style.backgroundColor = "white";
@@ -1599,7 +1599,24 @@ canvas.addEventListener("click", (event) => {
     if (event.target.classList.contains("editable")) {
         arrows(event.target)
     }
+
 });
+
+canvas.addEventListener("keydown", (keyEvent) => {
+    if (keyEvent.target.classList.contains("editable")) {
+        if (keyEvent.key == "Backspace" || keyEvent.key === "Delete") {
+            deleteElement(keyEvent.target);
+        }
+    }
+});
+function deleteElement(target) {
+    if (target) {
+        console.log("Menghapus elemen:", target);
+        target.remove();
+    } else {
+        console.log("TIdak ada yang dihapus")
+    }
+}
 function arrows(objek) {
     const object = objek;
     if (activeObject && activeObject !== object) {
@@ -1891,7 +1908,10 @@ function arrow(object) {
         }
     });
     if (activeObject && activeObject !== object) {
-        allimg.remove()
+        allimg.forEach((img) => {
+            img.remove(); // Hapus setiap elemen gambar
+        });
+
     }
 }
 //BAGIAN HOVER ARROW
